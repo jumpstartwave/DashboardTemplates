@@ -1,0 +1,696 @@
+{
+  "templateName": "Overview Dashboard (Rainbow)",
+  "templateDescription": "A multi-color tiled overview dashboard with dashboard links to drill-down reports.",
+  "state": {
+    "widgets": {
+      "link_14": {
+        "pos": {
+          "x": 1180,
+          "y": 880,
+          "zIndex": 62
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "Dashboard Link",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "link_12": {
+        "pos": {
+          "x": 470,
+          "y": 880,
+          "zIndex": 60
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "Dashboard Link",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "link_13": {
+        "pos": {
+          "x": 830,
+          "y": 880,
+          "zIndex": 61
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "Dashboard Link",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "link_10": {
+        "pos": {
+          "x": 1180,
+          "y": 480,
+          "zIndex": 58
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "Dashboard Link",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "link_11": {
+        "pos": {
+          "x": 120,
+          "y": 880,
+          "zIndex": 59
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "Dashboard Link",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_54": {
+        "pos": {
+          "x": 460,
+          "y": 730,
+          "zIndex": 78
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "KPIs Here",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_53": {
+        "pos": {
+          "x": 110,
+          "y": 730,
+          "zIndex": 77
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "KPIs Here",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_56": {
+        "pos": {
+          "x": 1170,
+          "y": 730,
+          "zIndex": 80
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "KPIs Here",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_55": {
+        "pos": {
+          "x": 820,
+          "y": 730,
+          "zIndex": 79
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "KPIs Here",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_50": {
+        "pos": {
+          "x": 470,
+          "y": 330,
+          "zIndex": 74
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "KPIs Here",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_52": {
+        "pos": {
+          "x": 1170,
+          "y": 330,
+          "zIndex": 76
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "KPIs Here",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_51": {
+        "pos": {
+          "x": 820,
+          "y": 330,
+          "zIndex": 75
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "KPIs Here",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "box_17": {
+        "pos": {
+          "w": 320,
+          "x": 1080,
+          "h": 40,
+          "y": 570,
+          "zIndex": 15
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(39, 189, 205)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_16": {
+        "pos": {
+          "w": 320,
+          "x": 730,
+          "h": 40,
+          "y": 570,
+          "zIndex": 14
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(241, 124, 173)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_15": {
+        "pos": {
+          "w": 320,
+          "x": 380,
+          "h": 40,
+          "y": 570,
+          "zIndex": 13
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(243, 208, 80)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_14": {
+        "pos": {
+          "w": 320,
+          "x": 1080,
+          "h": 360,
+          "y": 580,
+          "zIndex": 17
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      "text_2": {
+        "pos": {
+          "x": 40,
+          "y": 70,
+          "zIndex": 2
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "fontSize": 15,
+          "text": "A summary dashboard can be used as a landing page/dashboard for your application. \nIt shows the KPIs for all the dashboards on one page and allows users to navigate \nquickly to a particular dashboard",
+          "textColor": "rgb(96, 119, 142)"
+        }
+      },
+      "box_13": {
+        "pos": {
+          "w": 320,
+          "x": 730,
+          "h": 360,
+          "y": 580,
+          "zIndex": 18
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_12": {
+        "pos": {
+          "w": 320,
+          "x": 380,
+          "h": 360,
+          "y": 580,
+          "zIndex": 16
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      "box_11": {
+        "pos": {
+          "w": 320,
+          "x": 30,
+          "h": 40,
+          "y": 570,
+          "zIndex": 11
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(129, 180, 255)",
+          "borderColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      "box_10": {
+        "pos": {
+          "w": 320,
+          "x": 30,
+          "h": 360,
+          "y": 580,
+          "zIndex": 12
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_1": {
+        "pos": {
+          "w": 1440,
+          "x": 0,
+          "h": 980,
+          "y": 0,
+          "zIndex": 0
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(242, 246, 250)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "text_1": {
+        "pos": {
+          "x": 40,
+          "y": 30,
+          "zIndex": 1
+        },
+        "type": "TextWidget",
+        "params": {
+          "text": "Summary Dashboard",
+          "textColor": "rgb(96, 119, 142)"
+        }
+      },
+      "box_3": {
+        "pos": {
+          "w": 320,
+          "x": 30,
+          "h": 40,
+          "y": 170,
+          "zIndex": 3
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(254, 186, 81)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_2": {
+        "pos": {
+          "w": 320,
+          "x": 30,
+          "h": 360,
+          "y": 180,
+          "zIndex": 4
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(207, 216, 225, 0)"
+        }
+      },
+      "text_47": {
+        "pos": {
+          "x": 1120,
+          "y": 630,
+          "zIndex": 70
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 14,
+          "text": "360 degree view of your accounts \n(sales, service and marketing)",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_46": {
+        "pos": {
+          "x": 740,
+          "y": 630,
+          "zIndex": 69
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 14,
+          "text": "How is your team doing? Who needs help and \nwho gets bonus",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_49": {
+        "pos": {
+          "x": 110,
+          "y": 330,
+          "zIndex": 73
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "KPIs Here",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_43": {
+        "pos": {
+          "x": 1130,
+          "y": 230,
+          "zIndex": 66
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 14,
+          "text": "Compare sales performances",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_42": {
+        "pos": {
+          "x": 750,
+          "y": 230,
+          "zIndex": 65
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 14,
+          "text": "Churn rate by products and customer type",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_45": {
+        "pos": {
+          "x": 400,
+          "y": 630,
+          "zIndex": 68
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 14,
+          "text": "How has your pipeline changed over time",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_44": {
+        "pos": {
+          "x": 60,
+          "y": 630,
+          "zIndex": 67
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 14,
+          "text": "Get visibility into your sales pipeline. ",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_41": {
+        "pos": {
+          "x": 420,
+          "y": 230,
+          "zIndex": 64
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 14,
+          "text": "How are we doing against our target?",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_40": {
+        "pos": {
+          "x": 40,
+          "y": 230,
+          "zIndex": 63
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 14,
+          "text": "How much time it took for opportunities to \nmove to the next stage? \n",
+          "textColor": "rgb(96, 119, 142)"
+        }
+      },
+      "text_39": {
+        "pos": {
+          "x": 1140,
+          "y": 600,
+          "zIndex": 54
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "Account Overview",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_36": {
+        "pos": {
+          "x": 110,
+          "y": 600,
+          "zIndex": 51
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "Sales Pipeline",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_35": {
+        "pos": {
+          "x": 1170,
+          "y": 200,
+          "zIndex": 50
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "Scorecard",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_38": {
+        "pos": {
+          "x": 770,
+          "y": 600,
+          "zIndex": 53
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "Sales Rep Performance",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_37": {
+        "pos": {
+          "x": 450,
+          "y": 600,
+          "zIndex": 52
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "Pipeline Trending",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_32": {
+        "pos": {
+          "x": 60,
+          "y": 200,
+          "zIndex": 47
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "Sales Velocity Dashboard",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_34": {
+        "pos": {
+          "x": 820,
+          "y": 200,
+          "zIndex": 49
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "Churn",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "text_33": {
+        "pos": {
+          "x": 410,
+          "y": 200,
+          "zIndex": 48
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 20,
+          "text": "Weekly Forecast Dashboard",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "box_5": {
+        "pos": {
+          "w": 320,
+          "x": 380,
+          "h": 40,
+          "y": 170,
+          "zIndex": 5
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(241, 109, 96)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_4": {
+        "pos": {
+          "w": 320,
+          "x": 380,
+          "h": 360,
+          "y": 180,
+          "zIndex": 6
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_7": {
+        "pos": {
+          "w": 320,
+          "x": 730,
+          "h": 40,
+          "y": 170,
+          "zIndex": 7
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(69, 193, 115)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_6": {
+        "pos": {
+          "w": 320,
+          "x": 730,
+          "h": 360,
+          "y": 180,
+          "zIndex": 8
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_9": {
+        "pos": {
+          "w": 320,
+          "x": 1080,
+          "h": 40,
+          "y": 170,
+          "zIndex": 9
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(160, 146, 240)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_8": {
+        "pos": {
+          "w": 320,
+          "x": 1080,
+          "h": 360,
+          "y": 180,
+          "zIndex": 10
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "link_9": {
+        "pos": {
+          "x": 820,
+          "y": 480,
+          "zIndex": 57
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "Dashboard Link",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "link_7": {
+        "pos": {
+          "x": 110,
+          "y": 480,
+          "zIndex": 55
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "Dashboard Link",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      },
+      "link_8": {
+        "pos": {
+          "x": 470,
+          "y": 480,
+          "zIndex": 56
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "Dashboard Link",
+          "textColor": "rgb(57, 81, 125)"
+        }
+      }
+    }
+  }
+}

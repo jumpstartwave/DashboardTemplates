@@ -1,0 +1,727 @@
+{
+  "templateName": "Multi-color Tiled Summary",
+  "templateDescription": "Landing page for your app with summary tiles for various dashboards in your app.",  
+  "state" : {
+    "widgets" : {
+      "box_yellow_big" : {
+        "params" : {
+          "borderColor" : "rgba(0, 0, 0, 0)",
+          "backgroundColor" : "rgb(223, 199, 0)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 330,
+          "zIndex" : 9,
+          "y" : 440,
+          "h" : 420,
+          "x" : 1070
+        }
+      },
+      "box_green_small" : {
+        "params" : {
+          "borderColor" : "rgba(0, 0, 0, 0)",
+          "backgroundColor" : "rgb(126, 157, 28)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 330,
+          "zIndex" : 12,
+          "y" : 740,
+          "h" : 120,
+          "x" : 20
+        }
+      },
+      "text_redKPI_1" : {
+        "params" : {
+          "text" : "Monthly Forecast",
+          "textColor" : "rgb(255, 255, 255)",
+          "fontSize" : 16,
+          "textAlignment" : "center"
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 38,
+          "y" : 160,
+          "x" : 1150
+        }
+      },
+      "text_red_title" : {
+        "params" : {
+          "text" : "Weekly Forecast Dashboard",
+          "textColor" : "rgb(255, 255, 255)",
+          "textAlignment" : "left",
+          "fontSize" : 18
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 30,
+          "y" : 310,
+          "x" : 1070
+        }
+      },
+      "text_blueKPI_2" : {
+        "params" : {
+          "text" : "Sales Rep On Target",
+          "textColor" : "rgb(255, 255, 255)",
+          "fontSize" : 16,
+          "textAlignment" : "center"
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 44,
+          "y" : 560,
+          "x" : 790
+        }
+      },
+      "text_blueKPI_1" : {
+        "params" : {
+          "text" : "Sales Rep Below Target",
+          "textColor" : "rgb(255, 255, 255)",
+          "fontSize" : 16,
+          "textAlignment" : "center"
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 43,
+          "y" : 470,
+          "x" : 780
+        }
+      },
+      "box_purple_big" : {
+        "params" : {
+          "backgroundColor" : "rgb(186, 130, 232)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 330,
+          "zIndex" : 13,
+          "y" : 420,
+          "h" : 440,
+          "x" : 370
+        }
+      },
+      "text_red_description" : {
+        "params" : {
+          "text" : "How are we doing against our target?",
+          "textColor" : "rgb(241, 242, 243)",
+          "textAlignment" : "left",
+          "fontSize" : 14
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 31,
+          "y" : 330,
+          "x" : 1070
+        }
+      },
+      "link_yellow" : {
+        "params" : {
+          "chartType" : "hbar",
+          "text" : "Go to dashboard"
+        },
+        "type" : "LinkWidget",
+        "pos" : {
+          "zIndex" : 18,
+          "y" : 820,
+          "x" : 1260
+        }
+      },
+      "text_redKPI_3" : {
+        "params" : {
+          "text" : "Annual Forecast",
+          "textColor" : "rgb(255, 255, 255)",
+          "fontSize" : 16,
+          "textAlignment" : "center"
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 58,
+          "y" : 80,
+          "x" : 1150
+        }
+      },
+      "text_redKPI_2" : {
+        "params" : {
+          "text" : "Quarterly Forecast",
+          "textColor" : "rgb(255, 255, 255)",
+          "fontSize" : 16,
+          "textAlignment" : "center"
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 57,
+          "y" : 240,
+          "x" : 1140
+        }
+      },
+      "text_yellowKPI_1" : {
+        "params" : {
+          "text" : "More KPIs or Charts Here",
+          "textColor" : "rgb(255, 255, 255)",
+          "fontSize" : 16,
+          "textAlignment" : "center"
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 46,
+          "y" : 590,
+          "x" : 1120
+        }
+      },
+      "text_blueKPI_3" : {
+        "params" : {
+          "text" : "Sales Rep Over Target",
+          "textColor" : "rgb(255, 255, 255)",
+          "fontSize" : 16,
+          "textAlignment" : "center"
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 45,
+          "y" : 650,
+          "x" : 790
+        }
+      },
+      "text_dashboard_description" : {
+        "params" : {
+          "text" : "A summary dashboard can be used as a landing page/dashboard for your \napplication. It shows the KPIs for all the dashboards on one page and allows\nusers to navigate quickly to a particular dashboard",
+          "textColor" : "rgb(153, 151, 151)",
+          "textAlignment" : "left",
+          "fontSize" : 18
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 15,
+          "y" : 150,
+          "x" : 40
+        }
+      },
+      "box_gray_background" : {
+        "params" : {
+          "borderColor" : "rgba(0, 0, 0, 0)",
+          "backgroundColor" : "rgb(235, 235, 235)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 1430,
+          "zIndex" : 0,
+          "y" : 0,
+          "h" : 890,
+          "x" : 0
+        }
+      },
+      "text_orange_title" : {
+        "params" : {
+          "text" : "Sales Velocity Dashboard",
+          "textColor" : "rgb(255, 255, 255)",
+          "textAlignment" : "left",
+          "fontSize" : 18
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 25,
+          "y" : 270,
+          "x" : 720
+        }
+      },
+      "box_red_big" : {
+        "params" : {
+          "borderColor" : "rgba(0, 0, 0, 0)",
+          "backgroundColor" : "rgb(206, 72, 61)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 330,
+          "zIndex" : 4,
+          "y" : 20,
+          "h" : 400,
+          "x" : 1070
+        }
+      },
+      "text_green_description" : {
+        "params" : {
+          "text" : "Get visibility into your sales pipeline. ",
+          "textColor" : "rgb(241, 242, 243)",
+          "textAlignment" : "left",
+          "fontSize" : 14
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 27,
+          "y" : 770,
+          "x" : 20
+        }
+      },
+      "text_dashboard_title" : {
+        "params" : {
+          "text" : "Summary Dashboard",
+          "textColor" : "rgb(100, 100, 100)",
+          "fontSize" : 36
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 5,
+          "y" : 50,
+          "x" : 40
+        }
+      },
+      "text_orangeKPI_1" : {
+        "params" : {
+          "text" : "Average Time to Close",
+          "textColor" : "rgb(255, 255, 255)",
+          "fontSize" : 16,
+          "textAlignment" : "center"
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 38,
+          "y" : 160,
+          "x" : 780
+        }
+      },
+      "text_greenKPI_1" : {
+        "params" : {
+          "text" : "Open Pipe",
+          "textColor" : "rgb(255, 255, 255)",
+          "fontSize" : 16,
+          "textAlignment" : "center"
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 40,
+          "y" : 620,
+          "x" : 120
+        }
+      },
+      "text_purpleKPI_1" : {
+        "params" : {
+          "text" : "Total Churn This Quarter",
+          "textColor" : "rgb(255, 255, 255)",
+          "fontSize" : 16,
+          "textAlignment" : "center"
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 41,
+          "y" : 520,
+          "x" : 420
+        }
+      },
+      "text_purpleKPI_2" : {
+        "params" : {
+          "text" : "Customer Churn Number",
+          "textColor" : "rgb(255, 255, 255)",
+          "fontSize" : 16,
+          "textAlignment" : "center"
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 42,
+          "y" : 610,
+          "x" : 420
+        }
+      },
+      "box_green_big" : {
+        "params" : {
+          "backgroundColor" : "rgb(142, 176, 33)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 330,
+          "zIndex" : 11,
+          "y" : 420,
+          "h" : 440,
+          "x" : 20
+        }
+      },
+      "link_purple" : {
+        "params" : {
+          "chartType" : "hbar",
+          "text" : "Go to dashboard",
+          "destination" : ""
+        },
+        "type" : "LinkWidget",
+        "pos" : {
+          "zIndex" : 21,
+          "y" : 820,
+          "x" : 560
+        }
+      },
+      "text_yellow_description" : {
+        "params" : {
+          "text" : "Dashboard description - #f1f2f3 color, 14 font \nsize and limit to 2 rows",
+          "textColor" : "rgb(241, 242, 243)",
+          "textAlignment" : "left",
+          "fontSize" : 14
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 36,
+          "y" : 770,
+          "x" : 1080
+        }
+      },
+      "box_orange_small" : {
+        "params" : {
+          "borderColor" : "rgba(0, 0, 0, 0)",
+          "backgroundColor" : "rgb(216, 160, 15)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 330,
+          "zIndex" : 6,
+          "y" : 260,
+          "h" : 120,
+          "x" : 720
+        }
+      },
+      "link_orange" : {
+        "params" : {
+          "chartType" : "hbar",
+          "text" : "Go to dashboard",
+          "destination" : ""
+        },
+        "type" : "LinkWidget",
+        "pos" : {
+          "zIndex" : 19,
+          "y" : 340,
+          "x" : 910
+        }
+      },
+      "text_yellow_title" : {
+        "params" : {
+          "text" : "Dashboard Title (#ffffff, 18 font)",
+          "textColor" : "rgb(255, 255, 255)",
+          "textAlignment" : "left",
+          "fontSize" : 18
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 35,
+          "y" : 750,
+          "x" : 1080
+        }
+      },
+      "text_purple_description" : {
+        "params" : {
+          "text" : "Churn rate by products and customer type",
+          "textColor" : "rgb(241, 242, 243)",
+          "fontSize" : 14
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 29,
+          "y" : 770,
+          "x" : 370
+        }
+      },
+      "link_green" : {
+        "params" : {
+          "chartType" : "hbar",
+          "text" : "Go to dashboard",
+          "destination" : ""
+        },
+        "type" : "LinkWidget",
+        "pos" : {
+          "zIndex" : 20,
+          "y" : 820,
+          "x" : 210
+        }
+      },
+      "link_red" : {
+        "params" : {
+          "chartType" : "hbar",
+          "text" : "Go to dashboard",
+          "destination" : ""
+        },
+        "type" : "LinkWidget",
+        "pos" : {
+          "zIndex" : 23,
+          "y" : 380,
+          "x" : 1260
+        }
+      },
+      "link_blue" : {
+        "params" : {
+          "chartType" : "hbar",
+          "text" : "Go to dashboard",
+          "destination" : ""
+        },
+        "type" : "LinkWidget",
+        "pos" : {
+          "zIndex" : 22,
+          "y" : 820,
+          "x" : 910
+        }
+      },
+      "box_orange_big" : {
+        "params" : {
+          "borderColor" : "rgba(0, 0, 0, 0)",
+          "backgroundColor" : "rgb(248, 190, 39)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 330,
+          "zIndex" : 3,
+          "y" : 20,
+          "h" : 360,
+          "x" : 720
+        }
+      },
+      "text_blue_description" : {
+        "params" : {
+          "text" : "How is your team doing? Who needs help and \nwho gets bonus",
+          "textColor" : "rgb(241, 242, 243)",
+          "textAlignment" : "left",
+          "fontSize" : 14
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 34,
+          "y" : 770,
+          "x" : 730
+        }
+      },
+      "box_bars_image" : {
+        "params" : {
+          "imgUrl" : "015o0000001Vu9i",
+          "borderColor" : "rgba(0, 0, 0, 0)",
+          "backgroundColor" : "rgba(255, 255, 255, 0)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 680,
+          "zIndex" : 17,
+          "y" : 290,
+          "h" : 110,
+          "x" : 20
+        }
+      },
+      "box_blue_small" : {
+        "params" : {
+          "borderColor" : "rgba(0, 0, 0, 0)",
+          "backgroundColor" : "rgb(34, 129, 188)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 330,
+          "zIndex" : 8,
+          "y" : 740,
+          "h" : 120,
+          "x" : 720
+        }
+      },
+      "box_yellow_small" : {
+        "params" : {
+          "borderColor" : "rgba(0, 0, 0, 0)",
+          "backgroundColor" : "rgb(192, 171, 0)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 330,
+          "zIndex" : 10,
+          "y" : 740,
+          "h" : 120,
+          "x" : 1070
+        }
+      },
+      "box_company_logo" : {
+        "params" : {
+          "imgUrl" : "015o0000000H49y",
+          "borderColor" : "rgba(0, 0, 0, 0)",
+          "backgroundColor" : "rgba(255, 255, 255, 0.35)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 130,
+          "zIndex" : 16,
+          "y" : 40,
+          "h" : 80,
+          "x" : 550
+        }
+      },
+      "text_purple_title" : {
+        "params" : {
+          "text" : "Churn Dashboard",
+          "textColor" : "rgb(255, 255, 255)",
+          "textAlignment" : "left",
+          "fontSize" : 18
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 28,
+          "y" : 750,
+          "x" : 370
+        }
+      },
+      "text_blue_title" : {
+        "params" : {
+          "text" : "Sales Rep Performance",
+          "textColor" : "rgb(255, 255, 255)",
+          "textAlignment" : "left",
+          "fontSize" : 18
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 33,
+          "y" : 750,
+          "x" : 730
+        }
+      },
+      "box_red_small" : {
+        "params" : {
+          "borderColor" : "rgba(0, 0, 0, 0)",
+          "backgroundColor" : "rgb(189, 64, 54)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 330,
+          "zIndex" : 7,
+          "y" : 300,
+          "h" : 120,
+          "x" : 1070
+        }
+      },
+      "box_blue_big" : {
+        "params" : {
+          "borderColor" : "rgba(0, 0, 0, 0)",
+          "backgroundColor" : "rgb(42, 148, 214)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 330,
+          "zIndex" : 2,
+          "y" : 400,
+          "h" : 460,
+          "x" : 720
+        }
+      },
+      "text_orange_description" : {
+        "params" : {
+          "text" : "How much time it took for opportunities to \nmove to the next stage? \n",
+          "textColor" : "rgb(241, 242, 243)",
+          "textAlignment" : "left",
+          "fontSize" : 14
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 26,
+          "y" : 290,
+          "x" : 720
+        }
+      },
+      "box_purple_small" : {
+        "params" : {
+          "borderColor" : "rgba(0, 0, 0, 0)",
+          "backgroundColor" : "rgb(96, 60, 126)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 330,
+          "zIndex" : 14,
+          "y" : 740,
+          "h" : 120,
+          "x" : 370
+        }
+      },
+      "box_white" : {
+        "params" : {
+          "borderColor" : "rgba(179, 179, 179, 0)",
+          "backgroundColor" : "rgb(255, 255, 255)"
+        },
+        "type" : "BoxWidget",
+        "pos" : {
+          "w" : 680,
+          "zIndex" : 1,
+          "y" : 20,
+          "h" : 380,
+          "x" : 20
+        }
+      },
+      "text_green_title" : {
+        "params" : {
+          "text" : "Sales Pipeline Dashboard",
+          "textColor" : "rgb(255, 255, 255)",
+          "textAlignment" : "left",
+          "fontSize" : 18
+        },
+        "type" : "TextWidget",
+        "pos" : {
+          "zIndex" : 26,
+          "y" : 750,
+          "x" : 20
+        }
+      }
+    },
+    "layouts" : {
+      "device:iphone" : {
+        "page:0" : [
+          "| row: {height=20}",
+          "text_orange_title {colspan=6, vpad=-5, hpad=10}, box_orange_small{colspan=6, zIndex=-1, vpad=-5} | row: {height=30}",
+          "box_orange_big{colspan=6, rowspan=6, zIndex=-1}| row: {height=10}",
+          "| row: {height=50}",
+          "text_orangeKPI_1 {colspan=6, rowspan=1}",
+          "| row: {height=10}",
+          "link_orange {colspan=6, rowspan=1, hpad=20}",
+          "| row: {height=10}",
+          "| row: {height=10}",
+          "text_red_title {colspan=6, vpad=-5, hpad=10}, box_red_small{colspan=6, zIndex=-1, vpad=-5} | row: {height=30}",
+          "box_red_big{colspan=6, rowspan=6, zIndex=-1}| row: {height=10}",
+          "| row: {height=50}",
+          "text_redKPI_1 {colspan=2, rowspan=1}|text_redKPI_2 {colspan=2, rowspan=1}|text_redKPI_3 {colspan=2, rowspan=1}",
+          "| row: {height=10}",
+          "link_red {colspan=6, rowspan=1, hpad=20}",
+          "| row: {height=10}",
+          "| row: {height=10}",
+          "text_green_title {colspan=6, vpad=-5, hpad=10}, box_green_small{colspan=6, zIndex=-1, vpad=-5} | row: {height=30}",
+          "box_green_big{colspan=6, rowspan=6, zIndex=-1}| row: {height=10}",
+          "| row: {height=50}",
+          "text_greenKPI_1 {colspan=6, rowspan=1}",
+          "| row: {height=10}",
+          "link_green {colspan=6, rowspan=1, hpad=20}",
+          "| row: {height=10}",
+          "| row: {height=10}",
+          "text_purple_title {colspan=6, vpad=-5, hpad=10}, box_purple_small{colspan=6, zIndex=-1, vpad=-5} | row: {height=30}",
+          "box_purple_big{colspan=6, rowspan=6, zIndex=-1}| row: {height=10}",
+          "| row: {height=50}",
+          "text_purpleKPI_1 {colspan=3, rowspan=1} | text_purpleKPI_2 {colspan=3, rowspan=1}",
+          "| row: {height=10}",
+          "link_purple {colspan=6, rowspan=1, hpad=20}",
+          "| row: {height=10}",
+          "| row: {height=10}",
+          "text_blue_title {colspan=6, vpad=-5, hpad=10}, box_blue_small{colspan=6, zIndex=-1, vpad=-5} | row: {height=30}",
+          "box_blue_big{colspan=6, rowspan=6, zIndex=-1}| row: {height=10}",
+          "| row: {height=50}",
+          "text_blueKPI_1 {colspan=2, rowspan=1} | text_blueKPI_2 {colspan=2, rowspan=1} | text_blueKPI_3 {colspan=2, rowspan=1}",
+          "| row: {height=10}",
+          "link_blue {colspan=6, rowspan=1, hpad=20}",
+          "| row: {height=10}",
+          "| row: {height=10}",
+          "text_yellow_title {colspan=6, vpad=-5, hpad=10}, box_yellow_small{colspan=6, zIndex=-1, vpad=-5} | row: {height=30}",
+          "box_yellow_big{colspan=6, rowspan=6, zIndex=-1}| row: {height=10}",
+          "| row: {height=50}",
+          "text_yellowKPI_1 {colspan=6, rowspan=1}",
+          "| row: {height=10}",
+          "link_yellow {colspan=6, rowspan=1, hpad=20}",
+          "| row: {height=10}",
+          "| row: {height=10}"
+        ]
+      },
+      "device:applewatch" : {
+        "page:0" : [
+          "text_orangeKPI_1",
+          "text_redKPI_1",
+          "text_redKPI_2",
+          "text_redKPI_3",
+          "text_greenKPI_1",
+          "text_purpleKPI_1",
+          "text_purpleKPI_2",
+          "text_blueKPI_1",
+          "text_blueKPI_2",
+          "text_blueKPI_3",
+          "text_yellowKPI_1"
+        ]
+      }
+    }
+  }
+}

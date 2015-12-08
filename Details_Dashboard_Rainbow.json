@@ -1,0 +1,522 @@
+{
+  "templateName": "Details Dashboard (Rainbow)",
+  "templateDescription": "A details dashboard with dashboard link placeholders. Includes chart placeholders and a details table at the bottom.",
+  "state": {
+    "widgets": {
+      "link_dashboard3": {
+        "pos": {
+          "x": 380,
+          "y": 20,
+          "zIndex": 41
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "DASHBOARD NAME 3",
+          "textColor": "rgb(83, 99, 127)"
+        }
+      },
+      "link_dashboard4": {
+        "pos": {
+          "x": 560,
+          "y": 20,
+          "zIndex": 42
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "DASHBOARD NAME 4",
+          "textColor": "rgb(83, 99, 127)"
+        }
+      },
+      "link_dashboard1": {
+        "pos": {
+          "x": 20,
+          "y": 20,
+          "zIndex": 38
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "DASHBOARD NAME 1",
+          "textColor": "rgb(83, 99, 127)"
+        }
+      },
+      "link_dashboard2": {
+        "pos": {
+          "x": 200,
+          "y": 20,
+          "zIndex": 40
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "DASHBOARD NAME 2",
+          "textColor": "rgb(83, 99, 127)"
+        }
+      },
+      "text_chart5_title": {
+        "pos": {
+          "x": 610,
+          "y": 1050,
+          "zIndex": 32
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "fontSize": 17,
+          "text": "Chart 5 Name",
+          "textColor": "rgb(52, 73, 94)"
+        }
+      },
+      "text_KPI1_title": {
+        "pos": {
+          "x": 1170,
+          "y": 100,
+          "zIndex": 33
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 16,
+          "text": "KPI1",
+          "textColor": "rgb(52, 73, 94)"
+        }
+      },
+      "text_chart1_title": {
+        "pos": {
+          "x": 210,
+          "y": 190,
+          "zIndex": 45
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "fontSize": 17,
+          "text": "Chart 1 Name",
+          "textColor": "rgb(52, 73, 94)"
+        }
+      },
+      "box_dashboard_link2": {
+        "pos": {
+          "w": 180,
+          "x": 360,
+          "h": 40,
+          "y": 0,
+          "zIndex": 3
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(62, 191, 111)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_dashboard_link1": {
+        "pos": {
+          "w": 180,
+          "x": 180,
+          "h": 40,
+          "y": 0,
+          "zIndex": 9
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(240, 111, 97)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_all_dashboard_links": {
+        "pos": {
+          "w": 1260,
+          "x": 180,
+          "h": 50,
+          "y": 10,
+          "zIndex": 10
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(242, 246, 250)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_chart6": {
+        "pos": {
+          "w": 380,
+          "x": 1030,
+          "h": 380,
+          "y": 1090,
+          "zIndex": 5
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(193, 193, 193, 0.25)"
+        }
+      },
+      "box_dashboard_link4": {
+        "pos": {
+          "w": 180,
+          "x": 720,
+          "h": 40,
+          "y": 0,
+          "zIndex": 7
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(130, 181, 255)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_dashboard_link3": {
+        "pos": {
+          "w": 180,
+          "x": 540,
+          "h": 40,
+          "y": 0,
+          "zIndex": 8
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(161, 147, 240)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_19": {
+        "pos": {
+          "w": 180,
+          "x": 1260,
+          "h": 40,
+          "y": 0,
+          "zIndex": 0
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(37, 190, 205)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_chart3": {
+        "pos": {
+          "w": 1180,
+          "x": 230,
+          "h": 400,
+          "y": 620,
+          "zIndex": 46
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(193, 193, 193, 0.25)"
+        }
+      },
+      "box_18": {
+        "pos": {
+          "w": 180,
+          "x": 1080,
+          "h": 40,
+          "y": 0,
+          "zIndex": 1
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(241, 121, 171)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_dashboard_link_rest": {
+        "pos": {
+          "w": 180,
+          "x": 900,
+          "h": 60,
+          "y": 0,
+          "zIndex": 6
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(243, 207, 78)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_chart2": {
+        "pos": {
+          "w": 580,
+          "x": 830,
+          "h": 300,
+          "y": 240,
+          "zIndex": 44
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(193, 193, 193, 0.25)"
+        }
+      },
+      "box_chart5": {
+        "pos": {
+          "w": 380,
+          "x": 630,
+          "h": 380,
+          "y": 1090,
+          "zIndex": 29
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgba(255, 255, 255, 0.96)",
+          "borderColor": "rgba(193, 193, 193, 0.25)"
+        }
+      },
+      "box_chart4": {
+        "pos": {
+          "w": 380,
+          "x": 230,
+          "h": 380,
+          "y": 1090,
+          "zIndex": 5
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(193, 193, 193, 0.25)"
+        }
+      },
+      "box_chart1": {
+        "pos": {
+          "w": 580,
+          "x": 230,
+          "h": 300,
+          "y": 240,
+          "zIndex": 43
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgba(255, 255, 255, 0.77)",
+          "borderColor": "rgba(193, 193, 193, 0.25)"
+        }
+      },
+      "text_dashboard_title": {
+        "pos": {
+          "x": 0,
+          "y": 70,
+          "zIndex": 14
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "text": "Rainbow - Details Dashboard",
+          "textColor": "rgb(83, 99, 127)"
+        }
+      },
+      "text_KPI2_title": {
+        "pos": {
+          "x": 1300,
+          "y": 100,
+          "zIndex": 33
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 16,
+          "text": "KPI2",
+          "textColor": "rgb(52, 73, 94)"
+        }
+      },
+      "text_raw_data": {
+        "pos": {
+          "x": 640,
+          "y": 1520,
+          "zIndex": 34
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 17,
+          "text": "Raw Data Table",
+          "textColor": "rgb(52, 73, 94)"
+        }
+      },
+      "text_chart4_title": {
+        "pos": {
+          "x": 210,
+          "y": 1050,
+          "zIndex": 31
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "fontSize": 17,
+          "text": "Chart 4 Name",
+          "textColor": "rgb(52, 73, 94)"
+        }
+      },
+      "box_app_home": {
+        "pos": {
+          "w": 180,
+          "x": 0,
+          "h": 40,
+          "y": 0,
+          "zIndex": 5
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(254, 185, 79)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "text_chart2_title": {
+        "pos": {
+          "x": 810,
+          "y": 190,
+          "zIndex": 6
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "fontSize": 17,
+          "text": "Chart 2 Name",
+          "textColor": "rgb(52, 73, 94)"
+        }
+      },
+      "text_chart6_title": {
+        "pos": {
+          "x": 1010,
+          "y": 1050,
+          "zIndex": 33
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "fontSize": 17,
+          "text": "Chart 6 Name",
+          "textColor": "rgb(52, 73, 94)"
+        }
+      },
+      "link_9": {
+        "pos": {
+          "x": 1280,
+          "y": 20,
+          "zIndex": 36
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "DASHBOARD NAME 8",
+          "textColor": "rgb(83, 99, 127)"
+        }
+      },
+      "link_app_home": {
+        "pos": {
+          "x": 20,
+          "y": 120,
+          "zIndex": 37
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "< Back to App Home",
+          "textColor": "rgb(52, 73, 94)"
+        }
+      },
+      "link_7": {
+        "pos": {
+          "x": 920,
+          "y": 20,
+          "zIndex": 34
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "DASHBOARD NAME 6",
+          "textColor": "rgb(83, 99, 127)"
+        }
+      },
+      "link_8": {
+        "pos": {
+          "x": 1100,
+          "y": 20,
+          "zIndex": 35
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "DASHBOARD NAME 7",
+          "textColor": "rgb(83, 99, 127)"
+        }
+      },
+      "link_6": {
+        "pos": {
+          "x": 740,
+          "y": 20,
+          "zIndex": 35
+        },
+        "type": "LinkWidget",
+        "params": {
+          "destination": "",
+          "chartType": "hbar",
+          "text": "DASHBOARD NAME 5",
+          "textColor": "rgb(83, 99, 127)"
+        }
+      },
+      "box_dashboard_background": {
+        "pos": {
+          "w": 1440,
+          "x": 0,
+          "h": 1860,
+          "y": 170,
+          "zIndex": 4
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(242, 246, 250)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_header": {
+        "pos": {
+          "w": 1440,
+          "x": 0,
+          "h": 110,
+          "y": 60,
+          "zIndex": 2
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "text_chart3_title": {
+        "pos": {
+          "x": 210,
+          "y": 570,
+          "zIndex": 30
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "fontSize": 17,
+          "text": "Chart 3 Name",
+          "textColor": "rgb(52, 73, 94)"
+        }
+      },
+      "box_20": {
+        "pos": {
+          "w": 180,
+          "x": 0,
+          "h": 50,
+          "y": 10,
+          "zIndex": 34
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      }
+    }
+  }
+}

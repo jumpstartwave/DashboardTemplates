@@ -1,0 +1,392 @@
+{
+  "templateName": "Generic Web & Mobile 2",
+  "templateDescription": "Another generic web and mobile template to be used when you have a lot of filters or expanded filters and need a separate filters bar on left.",
+  "state": {
+    "layouts": {
+      "device:iphone": {
+        "page:0": [
+          "text_14{colspan=1, hpad=20}, box_17 {colspan=2, hpad=-15, vpad=-5, zIndex=-1} | text_15{hpad=10} |row : {height=60}",
+          "text_13, box_18 {colspan=2, hpad=-15, zIndex=-1} | row : {height=70}",
+          "text_3 {colspan=2, vpad=10}",
+          "box_11 {colspan=2, zIndex=-1} | row : {height=200}",
+          "text_2 {colspan=2, vpad=10}",
+          "box_10 {colspan=2, zIndex=-1} | row : {height=200}",
+          "text_4 {colspan=2, vpad=10}",
+          "box_5 {colspan=2, zIndex=-1} | row : {height=300}",
+          "text_6 {colspan=2, vpad=10}",
+          "box_7 {colspan=2, zIndex=-1} | row : {height=200}",
+          "text_7 {colspan=2, vpad=10}",
+          "box_8 {colspan=2, zIndex=-1} | row : {height=200}",
+          "text_8 {colspan=2, vpad=10}",
+          "box_9 {colspan=2, zIndex=-1} | row : {height=200}",
+          "text_9 {colspan=2, vpad=10}",
+          "box_15 {colspan=2, zIndex=-1} | row : {height=300}"
+        ]
+      },
+      "device:ipad, orientation:portrait": {
+        "page:0": [
+          "box_2 {colspan=3, hpad=-15, vpad=-5, zIndex=-1} | row : {height=80}",
+          "text_13{colspan=2}, box_4 {colspan=3, hpad=-15, zIndex=-1} | text_14 | row : {height=80}",
+          "text_2 {colspan=2, vpad=10} | text_3 {colspan=1, vpad=10}",
+          "box_10 {colspan=2, zIndex=-1} | box_11 {colspan=1, zIndex=-1} | row : {height=150}",
+          "text_4 {colspan=3, vpad=10}",
+          "box_5 {colspan=3, zIndex=-1} | row : {height=300}",
+          "text_6 {colspan=1, vpad=10} | text_7 {colspan=1, vpad=10} | text_8 {colspan=1, vpad=10}",
+          "box_7 {colspan=1, zIndex=-1} | box_8 {colspan=1, zIndex=-1} | box_9 {colspan=1, zIndex=-1} | row : {height=200}",
+          "text_9 {colspan=3, vpad=10}",
+          "box_15 {colspan=3, zIndex=-1} | row : {height=300}"
+        ]
+      },
+      "device:ipad, orientation:landscape": {
+        "page:0": [
+          "box_2 {colspan=3, hpad=-15, vpad=-5, zIndex=-1} | row : {height=110}",
+          "text_13{colspan=2}, box_18 {colspan=3, hpad=-15, zIndex=-1} | text_14 | row : {height=80}",
+          "text_2 {colspan=2, vpad=10} | text_3 {colspan=1, vpad=10}",
+          "box_10 {colspan=2, zIndex=-1} | box_11 {colspan=1, zIndex=-1} | row : {height=150}",
+          "text_4 {colspan=3, vpad=10}",
+          "box_5 {colspan=3, zIndex=-1} | row : {height=300}",
+          "text_6 {colspan=1, vpad=10} | text_7 {colspan=1, vpad=10} | text_8 {colspan=1, vpad=10}",
+          "box_7 {colspan=1, zIndex=-1} | box_8 {colspan=1, zIndex=-1} | box_9 {colspan=1, zIndex=-1} | row : {height=200}",
+          "text_9 {colspan=3, vpad=10}",
+          "box_15 {colspan=3, zIndex=-1} | row : {height=300}"
+        ]
+      }
+    },
+    "widgets": {
+      "box_11": {
+        "params": {
+          "borderColor": "rgba(199, 199, 199, 0.59)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 330,
+          "zIndex": 11,
+          "y": 210,
+          "h": 150,
+          "x": 1070
+        }
+      },
+      "box_14": {
+        "params": {
+          "imgUrl": "015o0000000H49y",
+          "borderColor": "rgba(255, 255, 255, 0)",
+          "backgroundColor": "rgba(255, 255, 255, 0)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 130,
+          "zIndex": 17,
+          "y": 30,
+          "h": 80,
+          "x": 10
+        }
+      },
+      "box_10": {
+        "params": {
+          "borderColor": "rgba(199, 199, 199, 0.59)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 680,
+          "zIndex": 10,
+          "y": 210,
+          "h": 150,
+          "x": 370
+        }
+      },
+      "box_7": {
+        "params": {
+          "borderColor": "rgba(199, 199, 199, 0.59)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 330,
+          "zIndex": 7,
+          "y": 710,
+          "h": 280,
+          "x": 370
+        }
+      },
+      "text_15": {
+        "params": {
+          "text": "KPI ",
+          "textColor": "rgb(24, 3, 3)",
+          "fontSize": 28
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 23,
+          "y": 30,
+          "x": 1220
+        }
+      },
+      "text_1": {
+        "params": {
+          "text": "Dashboard Name",
+          "textColor": "rgb(255, 255, 255)",
+          "fontSize": 20
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 1,
+          "y": 10,
+          "x": 580
+        }
+      },
+      "text_14": {
+        "params": {
+          "text": "KPI NAME HERE",
+          "textColor": "rgb(0, 0, 0)",
+          "textAlignment": "left",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 22,
+          "y": 90,
+          "x": 1210
+        }
+      },
+      "box_5": {
+        "params": {
+          "borderColor": "rgba(199, 199, 199, 0.59)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 1030,
+          "zIndex": 5,
+          "y": 420,
+          "h": 230,
+          "x": 370
+        }
+      },
+      "text_13": {
+        "params": {
+          "text": "FILTERS",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 21,
+          "y": 160,
+          "x": 90
+        }
+      },
+      "box_4": {
+        "params": {
+          "borderColor": "rgba(199, 199, 199, 0)",
+          "backgroundColor": "rgb(247, 247, 247)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 350,
+          "zIndex": 4,
+          "y": 210,
+          "h": 1150,
+          "x": 0
+        }
+      },
+      "box_15": {
+        "params": {
+          "borderColor": "rgba(199, 199, 199, 0.59)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 1030,
+          "zIndex": 12,
+          "y": 1050,
+          "h": 270,
+          "x": 370
+        }
+      },
+      "box_16": {
+        "params": {
+          "backgroundColor": "rgba(225, 225, 225, 0.93)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 170,
+          "zIndex": 18,
+          "y": 10,
+          "h": 70,
+          "x": 1200
+        }
+      },
+      "box_9": {
+        "params": {
+          "borderColor": "rgba(199, 199, 199, 0.59)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 330,
+          "zIndex": 9,
+          "y": 710,
+          "h": 280,
+          "x": 1070
+        }
+      },
+      "box_17": {
+        "params": {
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgba(255, 255, 255, 0.88)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 170,
+          "zIndex": 19,
+          "y": 80,
+          "h": 50,
+          "x": 1200
+        }
+      },
+      "box_8": {
+        "params": {
+          "borderColor": "rgba(199, 199, 199, 0.59)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 330,
+          "zIndex": 8,
+          "y": 710,
+          "h": 280,
+          "x": 720
+        }
+      },
+      "box_18": {
+        "params": {
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgba(201, 201, 201, 0.35)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 350,
+          "zIndex": 20,
+          "y": 150,
+          "h": 60,
+          "x": 0
+        }
+      },
+      "text_7": {
+        "params": {
+          "text": "Chart 4 Name Here",
+          "textColor": "rgb(54, 54, 54)",
+          "textAlignment": "left",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 17,
+          "y": 670,
+          "x": 700
+        }
+      },
+      "text_6": {
+        "params": {
+          "text": "Chart 3 Name Here",
+          "textColor": "rgb(54, 54, 54)",
+          "textAlignment": "left",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 16,
+          "y": 670,
+          "x": 350
+        }
+      },
+      "box_2": {
+        "params": {
+          "imgUrl": "015o0000000H4VO",
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgba(255, 225, 225, 0.81)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 1420,
+          "zIndex": 2,
+          "y": 0,
+          "h": 150,
+          "x": 0
+        }
+      },
+      "text_9": {
+        "params": {
+          "text": "Tabular Details Here",
+          "textColor": "rgb(54, 54, 54)",
+          "textAlignment": "left",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 19,
+          "y": 1010,
+          "x": 350
+        }
+      },
+      "text_8": {
+        "params": {
+          "text": "Chart 5 Name Here",
+          "textColor": "rgb(54, 54, 54)",
+          "textAlignment": "left",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 18,
+          "y": 670,
+          "x": 1050
+        }
+      },
+      "text_3": {
+        "params": {
+          "text": "Important Numbers In This Box",
+          "textColor": "rgb(54, 54, 54)",
+          "textAlignment": "left",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 13,
+          "y": 170,
+          "x": 1050
+        }
+      },
+      "text_2": {
+        "params": {
+          "text": "Chart 1 Name Here ",
+          "textColor": "rgb(54, 54, 54)",
+          "textAlignment": "left",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 12,
+          "y": 170,
+          "x": 350
+        }
+      },
+      "text_4": {
+        "params": {
+          "text": "Chart 2  Name Here",
+          "textColor": "rgb(54, 54, 54)",
+          "textAlignment": "left",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 14,
+          "y": 380,
+          "x": 350
+        }
+      }
+    }
+  }
+}

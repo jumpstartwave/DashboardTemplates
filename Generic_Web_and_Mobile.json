@@ -1,0 +1,408 @@
+{
+  "templateName": "Generic Web & Mobile",
+  "templateDescription": "To be used when you have a lot of filters or expanded filters and need a separate filters bar on left.",
+  "state" : {
+    "layouts": {
+      "device:iphone": {
+        "page:0": [
+          "Logo_box{colspan=1, vpad=10} | DashboardTitle_text {colspan=2, vpad=10}  | row : {height=80}",
+          "Filter1_text{colspan=1, vpad=5} | Filter2_text{colspan=1, vpad=5} | Filter3_text{colspan=1, vpad=5} ",
+          "BlueBigBackground_box{colspan=3, hpad=-15} | row: {height=2}",
+          "KPI1_text {colspan=1, vpad=5} | KPI2_text {colspan=1, vpad=5} | KPI3_text {colspan=1, vpad=5}| row : {height=60}",
+          "Chart1Title_text{colspan=3, vpad=10}",
+          "Chart2Title_text{colspan=3, vpad=10}",
+          "Chart3Title_text{colspan=3, vpad=10}",
+          "Chart4Title_text{colspan=3, vpad=10}",
+          "Chart5Title_text{colspan=3, vpad=10}",
+          "Chart6Title_text{colspan=3, vpad=10}",
+          "RawDataTable_text{colspan=3, vpad=10}"
+        ]
+      },
+      "device:ipad, orientation:portrait": {
+        "page:0": [
+          "Logo_box{colspan=2, vpad=10} | DashboardTitle_text {colspan=6, vpad=10}  | row : {height=80}",
+          "FiltersBackground_box{colspan=8, rowspan=2, hpad=-15, zIndex=-1} | row : {height=0}",
+          "Filter1_text{colspan=2, vpad=5} | | Filter2_text{colspan=2, vpad=5} | | Filter3_text{colspan=2, vpad=5} | row : {height=60}",
+          "KPI1_text {colspan=2, vpad=5} | | KPI2_text {colspan=2, vpad=5} | | KPI3_text {colspan=2, vpad=5}",
+          "Chart1Title_text{colspan=5, vpad=10} |Chart2Title_text{colspan=3, vpad=10} ",
+          "Chart3Title_text{colspan=8, vpad=10}",
+          "Chart4Title_text{colspan=2, vpad=10} | | Chart5Title_text{colspan=2, vpad=10} | | Chart6Title_text{colspan=2, vpad=10}",
+          "RawDataTable_text{colspan=8, vpad=10}"
+        ]
+      },
+      "device:ipad, orientation:landscape": {
+        "page:0": [
+          "Logo_box{colspan=2, vpad=10} | DashboardTitle_text {colspan=6, vpad=10}  | row : {height=80}",
+          "FiltersBackground_box{colspan=8, rowspan=2, hpad=-15, zIndex=-1} | row : {height=0}",
+          "Filter1_text{colspan=2, vpad=5} | | Filter2_text{colspan=2, vpad=5} | | Filter3_text{colspan=2, vpad=5} | row : {height=60}",
+          "KPI1_text {colspan=2, vpad=5} | | KPI2_text {colspan=2, vpad=5} | | KPI3_text {colspan=2, vpad=5}| row : {height=60}",
+          "Chart1Title_text{colspan=5, vpad=10} |Chart2Title_text{colspan=3, vpad=10}",
+          "Chart3Title_text{colspan=8, vpad=10}",
+          "Chart4Title_text{colspan=2, vpad=10} | | Chart5Title_text{colspan=2, vpad=10} | | Chart6Title_text{colspan=2, vpad=10}",
+          "RawDataTable_text{colspan=8, vpad=10}"
+        ]
+      }
+    },
+    "widgets": {
+      "BlueBigBackground_box": {
+        "params": {
+          "borderColor": "rgba(199, 199, 199, 0.27)",
+          "backgroundColor": "rgb(7, 54, 78)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 1150,
+          "zIndex": 2,
+          "y": 0,
+          "h": 1280,
+          "x": 280
+        }
+      },
+      "GrayBigBackground_box": {
+        "params": {
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgba(255, 255, 255, 0.92)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 1090,
+          "zIndex": 6,
+          "y": 110,
+          "h": 1140,
+          "x": 310
+        }
+      },
+      "DashboardTitleBackground_box": {
+        "params": {
+          "borderColor": "rgba(255, 255, 255, 0)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 1090,
+          "zIndex": 15,
+          "y": 30,
+          "h": 80,
+          "x": 310
+        }
+      },
+      "FiltersBackground_box": {
+        "params": {
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgb(241, 242, 243)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 280,
+          "zIndex": 0,
+          "y": 0,
+          "h": 1280,
+          "x": 0
+        }
+      },
+      "Logo_box": {
+        "params": {
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgba(132, 132, 132, 0.39)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 130,
+          "zIndex": 17,
+          "y": 10,
+          "h": 80,
+          "x": 60
+        }
+      },
+      "LogoSeparator_text": {
+        "params": {
+          "text": "________________________________________",
+          "textColor": "rgb(179, 177, 177)",
+          "fontSize": 10
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 32,
+          "y": 90,
+          "x": 0
+        }
+      },
+      "Filter1_text": {
+        "params": {
+          "text": "Filter 1",
+          "textColor": "rgb(7, 54, 78)",
+          "textAlignment": "center",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 21,
+          "y": 130,
+          "x": 60
+        }
+      },
+      "Filter2_text": {
+        "params": {
+          "text": "Filter 2",
+          "textColor": "rgb(7, 54, 78)",
+          "textAlignment": "center",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 21,
+          "y": 240,
+          "x": 60
+        }
+      },
+      "Filter3_text": {
+        "params": {
+          "text": "Filter 3",
+          "textColor": "rgb(7, 54, 78)",
+          "textAlignment": "center",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 37,
+          "y": 350,
+          "x": 60
+        }
+      },
+      "DashboardTitle_text": {
+        "params": {
+          "text": "DASHBOARD NAME HERE",
+          "textColor": "rgb(7, 54, 78)",
+          "textAlignment": "left",
+          "fontSize": 22
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 36,
+          "y": 50,
+          "x": 330
+        }
+      },
+      "KPI1_text": {
+        "params": {
+          "text": "KPI 1",
+          "textAlignment": "center",
+          "textColor": "rgb(7, 54, 78)"
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 33,
+          "y": 50,
+          "x": 980
+        }
+      },
+      "KPI2_text": {
+        "params": {
+          "text": "KPI 2",
+          "textAlignment": "center",
+          "textColor": "rgb(7, 54, 78)"
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 34,
+          "y": 50,
+          "x": 1120
+        }
+      },
+      "KPI3_text": {
+        "params": {
+          "text": "KPI3",
+          "textAlignment": "center",
+          "textColor": "rgb(7, 54, 78)"
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 25,
+          "y": 50,
+          "x": 1260
+        }
+      },
+      "Chart1Title_text": {
+        "params": {
+          "text": "Bar Chart",
+          "textColor": "rgb(7, 54, 78)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 14,
+          "y": 120,
+          "x": 330
+        }
+      },
+      "Chart1Separator_text": {
+        "params": {
+          "text": "_____________________________________________________________________________________________________",
+          "textColor": "rgba(7, 54, 78, 0.5)",
+          "textAlignment": "left",
+          "fontSize": 12
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 15,
+          "y": 140,
+          "x": 330
+        }
+      },
+      "Chart2Title_text": {
+        "params": {
+          "text": "Pie Chart ",
+          "textColor": "rgb(7, 54, 78)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 16,
+          "y": 120,
+          "x": 1030
+        }
+      },
+      "Chart2Separator_text": {
+        "params": {
+          "text": "_________________________________________________",
+          "textColor": "rgba(7, 54, 78, 0.5)",
+          "textAlignment": "left",
+          "fontSize": 12
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 17,
+          "y": 140,
+          "x": 1030
+        }
+      },
+      "Chart3Title_text": {
+        "params": {
+          "text": "Longer Chart Here",
+          "textColor": "rgb(7, 54, 78)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 19,
+          "y": 540,
+          "x": 330
+        }
+      },
+      "Chart3Separator_text": {
+        "params": {
+          "text": "________________________________________________________________________________________________________________________________________________________",
+          "textColor": "rgba(7, 54, 78, 0.5)",
+          "fontSize": 12
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 20,
+          "y": 560,
+          "x": 330
+        }
+      },
+      "Chart4Title_text": {
+        "params": {
+          "text": "Heat Map",
+          "textColor": "rgb(7, 54, 78)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 25,
+          "y": 870,
+          "x": 320
+        }
+      },
+      "Chart4Separator_text": {
+        "params": {
+          "text": "_________________________________________________",
+          "textColor": "rgba(7, 54, 78, 0.5)",
+          "textAlignment": "left",
+          "fontSize": 12
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 24,
+          "y": 890,
+          "x": 320
+        }
+      },
+      "Chart5Title_text": {
+        "params": {
+          "text": "Bar Chart (Amount by Lead Source)",
+          "textColor": "rgb(7, 54, 78)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 28,
+          "y": 870,
+          "x": 670
+        }
+      },
+      "Chart5Separator_text": {
+        "params": {
+          "text": "_________________________________________________",
+          "textColor": "rgba(7, 54, 78, 0.5)",
+          "textAlignment": "left",
+          "fontSize": 12
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 27,
+          "y": 890,
+          "x": 670
+        }
+      },
+      "Chart6Title_text": {
+        "params": {
+          "text": "Bar Chart (Amount by Account Type)",
+          "textColor": "rgb(7, 54, 78)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 36,
+          "y": 870,
+          "x": 1020
+        }
+      },
+      "Chart6Separator_text": {
+        "params": {
+          "text": "_________________________________________________",
+          "textColor": "rgba(7, 54, 78, 0.5)",
+          "textAlignment": "left",
+          "fontSize": 12
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 29,
+          "y": 890,
+          "x": 1020
+        }
+      },
+      "RawDataTable_text": {
+        "params": {
+          "text": "Raw Data Table",
+          "textAlignment": "left",
+          "textColor": "rgb(7, 54, 78)",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 32,
+          "y": 1290,
+          "x": 620
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,644 @@
+{
+  "templateName": "Compare-cards and Benchmarking",
+  "templateDescription": "This dashboard template provides you two cards that can be filtered independently to show data across particular dimensions (Region A data on left and Region B data on right card). Filters on left are only applicable to the left card and filters on right are only applicable to the right card. You can add multiple charts and numbers to each of the compare card and then filter the cards independently. Using this dashboard, you can compare across two salesmen, two products, two regions or a combination of these.",
+  "state": {
+    "layouts": {
+      "device:iphone": {
+        "page:0": [
+          "box_header_background {colspan=6, rowspan=5, hpad=-15, vpad=-10} | row:{height=15}",
+          "text_DashboardTitle {colspan=6}",
+          "| row: {height=10}",
+          "text_GlobalFilter {colspan=6}",
+          "| row: {height=10}",
+          "| row: {height=15}",
+          "text_CardA_Title {vpad=5, colspan=6}",
+          "box_CardA_orange_separator {colspan=6} | row: {height=10}",
+          "text_Filter1CardA {colspan=2} | text_Filter2CardA {colspan=2} | text_Filter3CardA {colspan=2}",
+          "|row: {height=10}",
+          "text_KPI1CardA {colspan=2} | text_KPI2CardA {colspan=2} | text_KPI3CardA {colspan=2}",
+          "|row: {height=20}",
+          "text_CardB_Title {vpad=5, colspan=6}",
+          "box_CardB_blue_separator{colspan=6} | row: {height=10}",
+          "text_Filter1CardB {colspan=2} | text_Filter2CardB {colspan=2} | text_Filter3CardB {colspan=2}",
+          "|row: {height=10}",
+          "text_KPI1CardB {colspan=2} | text_KPI2CardB {colspan=2} | text_KPI3CardB {colspan=2}",
+          "|row: {height=20}",
+          "box_deltacard_header_background {colspan=6, rowspan=3, zIndex=-1} | row: {height=10}",
+          "text_deltaTitle {colspan=6}",
+          "| row: {height=10}",
+          "box_deltacard_content_background {colspan=6, vpad=-5 } | row: {height=120}"
+        ],
+        "page:1": [
+          "text_Chart1CardA {colspan=2}",
+          "box_chart1_cardA {colspan=2} | row: {height=280}",
+          "row: {height=10}",
+          "text_Chart1CardB {colspan=2}",
+          "box_chart1_cardB {colspan=2} | row: {height=280}",
+          "text_Chart2CardA {colspan=2}",
+          "box_chart2_cardA {colspan=2} | row: {height=280}",
+          "row: {height=10}",
+          "text_Chart2CardB {colspan=2}",
+          "box_chart2_cardB {colspan=2} | row: {height=280}",
+          "text_Chart3CardA {colspan=2}",
+          "box_chart3_cardA {colspan=2} | row: {height=280}",
+          "row: {height=10}",
+          "text_Chart3CardB {colspan=2}",
+          "box_chart3_cardB {colspan=2} | row: {height=280}"
+        ]
+      },
+      "device:ipad, orientation:portrait": {
+        "page:0": [
+          "box_header_background {colspan=12, rowspan=3, hpad=-15, vpad=-10, zindex=-1} | row:{height=15}",
+          "text_DashboardTitle {colspan=6} | text_GlobalFilter {colspan=6}",
+          "| row: {height=15}",
+          "| row: {height=15}",
+          "box_CardA_header_background {colspan=6, zindex=-1, rowspan=5}| box_CardB_header_background {colspan=6, zindex=-1, rowspan=5}| row: {height=15}",
+          "text_CardA_Title {vpad=5, colspan=6} | text_CardB_Title {vpad=5, colspan=6}",
+          "| row: {height=15}",
+          "text_Filter1CardA {colspan=2} | text_Filter2CardA {colspan=2} | text_Filter3CardA {colspan=2} | text_Filter1CardB {colspan=2} | text_Filter2CardB {colspan=2} | text_Filter3CardB {colspan=2}",
+          "| row: {height=15}",
+          "box_CardA_orange_separator {colspan=6} | box_CardB_blue_separator {colspan=6} | row: {height=10}",
+          "| row: {height=15}",
+          "text_KPI1CardA {colspan=2} | text_KPI2CardA {colspan=2} | text_KPI3CardA {colspan=2} | text_KPI1CardB {colspan=2} | text_KPI2CardB {colspan=2} | text_KPI3CardB {colspan=2}",
+          "| row: {height=10}",
+          "box_deltacard_header_background {colspan=12, rowspan=3, zIndex=-1}  | row: {height=10}",
+          "text_deltaTitle {colspan=12}",
+          "| row: {height=10}",
+          "box_deltacard_content_background {colspan=12, vpad=-5 } | row: {height=150}",
+          "| row: {height=15}",
+          "text_Chart1CardA {colspan=6} | text_Chart1CardB {colspan=6}",
+          "box_chart1_cardA {colspan=6}| box_chart1_cardB {colspan=6}| row: {height=280}",
+          "row: {height=10}",
+          "text_Chart2CardA {colspan=6} | text_Chart2CardB {colspan=6}",
+          "box_chart2_cardA {colspan=6} | box_chart2_cardB {colspan=6}  | row: {height=280}",
+          "row: {height=10}",
+          "text_Chart3CardA {colspan=6} | text_Chart3CardB {colspan=6}",
+          "box_chart3_cardA {colspan=6} | box_chart3_cardB {colspan=6}  | row: {height=280}"
+        ]
+      },
+      "device:ipad, orientation:landscape": {
+        "page:0": [
+          "box_header_background {colspan=12, rowspan=3, hpad=-15, vpad=-10, zindex=-1} | row:{height=15}",
+          "text_DashboardTitle {colspan=6} | text_GlobalFilter {colspan=6}",
+          "| row: {height=15}",
+          "| row: {height=15}",
+          "box_CardA_header_background {colspan=6, zindex=-1, rowspan=5}| box_CardB_header_background {colspan=6, zindex=-1, rowspan=5}| row: {height=15}",
+          "text_CardA_Title {vpad=5, colspan=6} | text_CardB_Title {vpad=5, colspan=6}",
+          "| row: {height=15}",
+          "text_Filter1CardA {colspan=2} | text_Filter2CardA {colspan=2} | text_Filter3CardA {colspan=2} | text_Filter1CardB {colspan=2} | text_Filter2CardB {colspan=2} | text_Filter3CardB {colspan=2}",
+          "| row: {height=15}",
+          "box_CardA_orange_separator {colspan=6} | box_CardB_blue_separator {colspan=6} | row: {height=10}",
+          "| row: {height=15}",
+          "text_KPI1CardA {colspan=2} | text_KPI2CardA {colspan=2} | text_KPI3CardA {colspan=2} | text_KPI1CardB {colspan=2} | text_KPI2CardB {colspan=2} | text_KPI3CardB {colspan=2}",
+          "| row: {height=10}",
+          "box_deltacard_header_background {colspan=12, rowspan=3, zIndex=-1}  | row: {height=10}",
+          "text_deltaTitle {colspan=12}",
+          "| row: {height=10}",
+          "box_deltacard_content_background {colspan=12, vpad=-5 } | row: {height=150}",
+          "| row: {height=15}",
+          "text_Chart1CardA {colspan=6} | text_Chart1CardB {colspan=6}",
+          "box_chart1_cardA {colspan=6}| box_chart1_cardB {colspan=6}| row: {height=280}",
+          "row: {height=10}",
+          "text_Chart2CardA {colspan=6} | text_Chart2CardB {colspan=6}",
+          "box_chart2_cardA {colspan=6} | box_chart2_cardB {colspan=6}  | row: {height=280}",
+          "row: {height=10}",
+          "text_Chart3CardA {colspan=6} | text_Chart3CardB {colspan=6}",
+          "box_chart3_cardA {colspan=6} | box_chart3_cardB {colspan=6}  | row: {height=280}"
+        ]
+      }
+    },
+    "widgets": {
+      "text_KPI1CardB": {
+        "pos": {
+          "x": 780,
+          "y": 270,
+          "zIndex": 45
+        },
+        "type": "TextWidget",
+        "params": {
+          "text": "KPI 1\nCard B",
+          "textColor": "rgb(91, 192, 235)"
+        }
+      },
+      "text_KPI3CardA": {
+        "pos": {
+          "x": 510,
+          "y": 270,
+          "zIndex": 44
+        },
+        "type": "TextWidget",
+        "params": {
+          "text": "KPI 3\nCard A",
+          "textColor": "rgb(255, 177, 68)"
+        }
+      },
+      "text_KPI2CardB": {
+        "pos": {
+          "x": 1000,
+          "y": 270,
+          "zIndex": 46
+        },
+        "type": "TextWidget",
+        "params": {
+          "text": "KPI 2\nCard B",
+          "textColor": "rgb(91, 192, 235)"
+        }
+      },
+      "text_Chart3CardB": {
+        "pos": {
+          "x": 740,
+          "y": 1370,
+          "zIndex": 32
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "fontSize": 22,
+          "text": "Chart 3 - Card B",
+          "textColor": "rgb(91, 192, 235)"
+        }
+      },
+      "text_KPI2CardA": {
+        "pos": {
+          "x": 290,
+          "y": 270,
+          "zIndex": 43
+        },
+        "type": "TextWidget",
+        "params": {
+          "text": "KPI 2\nCard A",
+          "textColor": "rgb(255, 177, 68)"
+        }
+      },
+      "text_KPI1CardA": {
+        "pos": {
+          "x": 70,
+          "y": 270,
+          "zIndex": 42
+        },
+        "type": "TextWidget",
+        "params": {
+          "text": "KPI 1\nCard A",
+          "textColor": "rgb(255, 177, 68)"
+        }
+      },
+      "text_Chart2CardB": {
+        "pos": {
+          "x": 740,
+          "y": 1010,
+          "zIndex": 31
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "fontSize": 22,
+          "text": "Chart 2 - Card B",
+          "textColor": "rgb(91, 192, 235)"
+        }
+      },
+      "text_Chart1CardB": {
+        "pos": {
+          "x": 740,
+          "y": 520,
+          "zIndex": 30
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "fontSize": 22,
+          "text": "Chart 1 - Card B",
+          "textColor": "rgb(91, 192, 235)"
+        }
+      },
+      "box_deltacard_header_background": {
+        "pos": {
+          "w": 450,
+          "x": 490,
+          "h": 40,
+          "y": 370,
+          "zIndex": 28
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(203, 213, 243)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_CardB_blue_separator": {
+        "pos": {
+          "w": 670,
+          "x": 730,
+          "h": 40,
+          "y": 210,
+          "zIndex": 19
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(91, 192, 235)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_chart1_cardB": {
+        "pos": {
+          "w": 610,
+          "x": 760,
+          "h": 430,
+          "y": 560,
+          "zIndex": 15
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "borderColor": "rgb(212, 212, 212)"
+        }
+      },
+      "box_deltacard_content_background": {
+        "pos": {
+          "w": 450,
+          "x": 490,
+          "h": 90,
+          "y": 410,
+          "zIndex": 22
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(237, 239, 246)",
+          "borderColor": "rgba(200, 200, 200, 0)"
+        }
+      },
+      "text_Chart1CardA": {
+        "pos": {
+          "x": 30,
+          "y": 520,
+          "zIndex": 12
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "fontSize": 22,
+          "text": "Chart 1 - Card A",
+          "textColor": "rgb(255, 177, 68)"
+        }
+      },
+      "box_dashboard_background": {
+        "pos": {
+          "w": 1430,
+          "x": 0,
+          "h": 1700,
+          "y": 80,
+          "zIndex": 0
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(24, 48, 92)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "text_deltaTitle": {
+        "pos": {
+          "x": 610,
+          "y": 370,
+          "zIndex": 29
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "center",
+          "fontSize": 20,
+          "text": "Delta b/w cards (A-B)",
+          "textColor": "rgb(24, 48, 92)"
+        }
+      },
+      "box_chart1_cardA": {
+        "pos": {
+          "w": 610,
+          "x": 50,
+          "h": 420,
+          "y": 560,
+          "zIndex": 13
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgba(0, 140, 201, 0)",
+          "borderColor": "rgb(212, 212, 212)"
+        }
+      },
+      "box_CardA_orange_separator": {
+        "pos": {
+          "w": 670,
+          "x": 30,
+          "h": 40,
+          "y": 210,
+          "zIndex": 17
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 177, 68)",
+          "borderColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      "text_Chart3CardA": {
+        "pos": {
+          "x": 30,
+          "y": 1370,
+          "zIndex": 40
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "fontSize": 22,
+          "text": "Chart 3 - Card A",
+          "textColor": "rgb(255, 177, 68)"
+        }
+      },
+      "box_CardB_charts_background": {
+        "pos": {
+          "w": 670,
+          "x": 730,
+          "h": 1500,
+          "y": 250,
+          "zIndex": 2
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      "text_Chart2CardA": {
+        "pos": {
+          "x": 30,
+          "y": 1010,
+          "zIndex": 12
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "fontSize": 22,
+          "text": "Chart 2 - Card A",
+          "textColor": "rgb(255, 177, 68)"
+        }
+      },
+      "box_CardA_charts_background": {
+        "pos": {
+          "w": 670,
+          "x": 30,
+          "h": 1510,
+          "y": 240,
+          "zIndex": 1
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_logo": {
+        "pos": {
+          "w": 130,
+          "x": 0,
+          "h": 50,
+          "y": 10,
+          "zIndex": 4
+        },
+        "type": "BoxWidget",
+        "params": {
+          "imgUrl": "015o0000000H49y",
+          "backgroundColor": "rgba(255, 255, 255, 0)",
+          "borderColor": "rgba(255, 255, 255, 0)"
+        }
+      },
+      "text_CardB_Title": {
+        "pos": {
+          "x": 1000,
+          "y": 120,
+          "zIndex": 27
+        },
+        "type": "TextWidget",
+        "params": {
+          "text": "Card - B",
+          "textColor": "rgb(24, 48, 92)"
+        }
+      },
+      "text_CardA_Title": {
+        "pos": {
+          "x": 290,
+          "y": 120,
+          "zIndex": 26
+        },
+        "type": "TextWidget",
+        "params": {
+          "text": "Card - A",
+          "textColor": "rgb(24, 48, 92)"
+        }
+      },
+      "box_header_background": {
+        "pos": {
+          "w": 1430,
+          "x": 0,
+          "h": 80,
+          "y": 0,
+          "zIndex": 0
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(237, 239, 246)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "box_CardB_header_background": {
+        "pos": {
+          "w": 670,
+          "x": 730,
+          "h": 130,
+          "y": 110,
+          "zIndex": 20
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(237, 239, 246)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "text_DashboardTitle": {
+        "pos": {
+          "x": 100,
+          "y": 20,
+          "zIndex": 4
+        },
+        "type": "TextWidget",
+        "params": {
+          "textAlignment": "left",
+          "fontSize": 18,
+          "text": "SCORECARD - COMPARE CARDS DASHBOARD",
+          "textColor": "rgb(24, 48, 92)"
+        }
+      },
+      "box_CardA_header_background": {
+        "pos": {
+          "w": 670,
+          "x": 30,
+          "h": 130,
+          "y": 110,
+          "zIndex": 18
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgb(237, 239, 246)",
+          "borderColor": "rgba(0, 0, 0, 0)"
+        }
+      },
+      "text_Filter2CardB": {
+        "pos": {
+          "x": 1000,
+          "y": 180,
+          "zIndex": 52
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 18,
+          "text": "Filter 2 - Card B"
+        }
+      },
+      "text_Filter1CardB": {
+        "pos": {
+          "x": 780,
+          "y": 180,
+          "zIndex": 51
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 18,
+          "text": "Filter 1 - Card B"
+        }
+      },
+      "text_GlobalFilter": {
+        "pos": {
+          "x": 1270,
+          "y": 20,
+          "zIndex": 54
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 18,
+          "text": "Global Filter 1"
+        }
+      },
+      "text_Filter3CardB": {
+        "pos": {
+          "x": 1220,
+          "y": 180,
+          "zIndex": 53
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 18,
+          "text": "Filter 3 - Card B"
+        }
+      },
+      "text_Filter1CardA": {
+        "pos": {
+          "x": 70,
+          "y": 180,
+          "zIndex": 48
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 18,
+          "text": "Filter 1 - Card A"
+        }
+      },
+      "text_KPI3CardB": {
+        "pos": {
+          "x": 1220,
+          "y": 270,
+          "zIndex": 47
+        },
+        "type": "TextWidget",
+        "params": {
+          "text": "KPI 3\nCard B",
+          "textColor": "rgb(91, 192, 235)"
+        }
+      },
+      "text_Filter3CardA": {
+        "pos": {
+          "x": 510,
+          "y": 180,
+          "zIndex": 50
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 18,
+          "text": "Filter 3- Card A"
+        }
+      },
+      "text_Filter2CardA": {
+        "pos": {
+          "x": 290,
+          "y": 180,
+          "zIndex": 49
+        },
+        "type": "TextWidget",
+        "params": {
+          "fontSize": 18,
+          "text": "Filter 2- Card A"
+        }
+      },
+      "box_chart2_cardA": {
+        "pos": {
+          "w": 620,
+          "x": 50,
+          "h": 300,
+          "y": 1050,
+          "zIndex": 36
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgba(0, 140, 201, 0)",
+          "borderColor": "rgb(212, 212, 212)"
+        }
+      },
+      "box_chart3_cardB": {
+        "pos": {
+          "w": 610,
+          "x": 760,
+          "h": 310,
+          "y": 1410,
+          "zIndex": 35
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgba(0, 140, 201, 0)",
+          "borderColor": "rgb(212, 212, 212)"
+        }
+      },
+      "box_chart2_cardB": {
+        "pos": {
+          "w": 610,
+          "x": 760,
+          "h": 300,
+          "y": 1050,
+          "zIndex": 34
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgba(0, 140, 201, 0)",
+          "borderColor": "rgb(212, 212, 212)"
+        }
+      },
+      "box_chart3_cardA": {
+        "pos": {
+          "w": 620,
+          "x": 50,
+          "h": 310,
+          "y": 1410,
+          "zIndex": 33
+        },
+        "type": "BoxWidget",
+        "params": {
+          "backgroundColor": "rgba(0, 140, 201, 0)",
+          "borderColor": "rgb(212, 212, 212)"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,965 @@
+{
+  "templateName": "Account 360 for Web",
+  "templateDescription": "Provides a 360 degree view of accounts. Our reference Account 360 dashboard has 3 sections - Bookings, Customer Health and Adoption. These three sections have been placed one below the other in this template. This layout has been optimized for Macbook Pro retina display (1440 px width).",
+  "state": {
+    "widgets": {
+      "text_46": {
+        "params": {
+          "text": "Bookings",
+          "textColor": "rgb(45, 45, 45)",
+          "fontSize": 35
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 56,
+          "y": 160,
+          "x": 0
+        }
+      },
+      "box_11": {
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 670,
+          "zIndex": 71,
+          "y": 470,
+          "h": 190,
+          "x": 720
+        }
+      },
+      "box_12": {
+        "params": {
+          "borderColor": "rgba(0, 0, 0, 0.25)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 670,
+          "zIndex": 72,
+          "y": 300,
+          "h": 110,
+          "x": 720
+        }
+      },
+      "box_30": {
+        "params": {
+          "backgroundColor": "rgba(255, 255, 255, 0.98)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 670,
+          "zIndex": 86,
+          "y": 2050,
+          "h": 260,
+          "x": 20
+        }
+      },
+      "text_47": {
+        "params": {
+          "text": "Customer Health",
+          "textColor": "rgb(45, 45, 45)",
+          "fontSize": 35
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 55,
+          "y": 1100,
+          "x": 0
+        }
+      },
+      "box_13": {
+        "params": {
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgb(245, 187, 8)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 1420,
+          "zIndex": 61,
+          "y": 80,
+          "h": 60,
+          "x": 0
+        }
+      },
+      "text_48": {
+        "params": {
+          "text": "Adoption",
+          "fontSize": 35
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 56,
+          "y": 1830,
+          "x": 0
+        }
+      },
+      "text_22": {
+        "params": {
+          "text": "Monthly Active Users",
+          "textColor": "rgb(199, 151, 3)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 68,
+          "y": 2430,
+          "x": 0
+        }
+      },
+      "box_14": {
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 670,
+          "zIndex": 79,
+          "y": 720,
+          "h": 320,
+          "x": 720
+        }
+      },
+      "text_49": {
+        "params": {
+          "text": "For each accounts, get an overview of your open opportunities, your past deals and product portfolio.",
+          "textColor": "rgb(45, 45, 45)",
+          "textAlignment": "left",
+          "fontSize": 14
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 80,
+          "y": 200,
+          "x": 0
+        }
+      },
+      "box_32": {
+        "params": {
+          "borderColor": "rgba(255, 255, 255, 0)",
+          "backgroundColor": "rgb(42, 42, 42)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 1420,
+          "zIndex": 21,
+          "y": 0,
+          "h": 80,
+          "x": 0
+        }
+      },
+      "text_23": {
+        "params": {
+          "text": "Posts",
+          "textColor": "rgb(199, 151, 3)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 68,
+          "y": 2430,
+          "x": 700
+        }
+      },
+      "text_24": {
+        "params": {
+          "text": "Usage Overview",
+          "textColor": "rgb(13, 195, 187)",
+          "textAlignment": "left",
+          "fontSize": 24
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 67,
+          "y": 1950,
+          "x": 0
+        }
+      },
+      "box_34": {
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 670,
+          "zIndex": 88,
+          "y": 2050,
+          "h": 260,
+          "x": 720
+        }
+      },
+      "text_25": {
+        "params": {
+          "text": "Global Company",
+          "textColor": "rgb(0, 0, 0)",
+          "textAlignment": "left",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 62,
+          "y": 90,
+          "x": 160
+        }
+      },
+      "text_26": {
+        "params": {
+          "text": "Account",
+          "textColor": "rgb(0, 0, 0)",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 63,
+          "y": 90,
+          "x": 600
+        }
+      },
+      "box_10": {
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 670,
+          "zIndex": 69,
+          "y": 300,
+          "h": 360,
+          "x": 20
+        }
+      },
+      "text_27": {
+        "params": {
+          "text": "True Login %",
+          "textColor": "rgb(199, 151, 3)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 68,
+          "y": 2010,
+          "x": 0
+        }
+      },
+      "text_28": {
+        "params": {
+          "text": "Product 1",
+          "textColor": "rgb(13, 195, 187)",
+          "textAlignment": "left",
+          "fontSize": 24
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 68,
+          "y": 2360,
+          "x": 0
+        }
+      },
+      "text_29": {
+        "params": {
+          "text": "Recent Sev1/Sev2 (Past 3 Months)",
+          "textColor": "rgb(199, 151, 3)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 103,
+          "y": 1210,
+          "x": 350
+        }
+      },
+      "box_15": {
+        "params": {
+          "backgroundColor": "rgba(255, 255, 255, 0.96)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 670,
+          "zIndex": 79,
+          "y": 720,
+          "h": 320,
+          "x": 20
+        }
+      },
+      "box_16": {
+        "params": {
+          "borderColor": "rgba(255, 255, 255, 0.25)",
+          "backgroundColor": "rgba(255, 255, 255, 0.93)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 260,
+          "zIndex": 62,
+          "y": 90,
+          "h": 40,
+          "x": 310
+        }
+      },
+      "box_17": {
+        "params": {
+          "borderColor": "rgba(255, 255, 255, 0)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 260,
+          "zIndex": 63,
+          "y": 90,
+          "h": 40,
+          "x": 710
+        }
+      },
+      "box_9": {
+        "params": {
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 260,
+          "zIndex": 65,
+          "y": 90,
+          "h": 40,
+          "x": 1080
+        }
+      },
+      "box_18": {
+        "params": {
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgba(243, 243, 243, 0.91)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 1420,
+          "zIndex": 25,
+          "y": 240,
+          "h": 850,
+          "x": 0
+        }
+      },
+      "box_24": {
+        "params": {
+          "backgroundColor": "rgb(255, 255, 255)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 670,
+          "zIndex": 81,
+          "y": 1250,
+          "h": 520,
+          "x": 720
+        }
+      },
+      "text_33": {
+        "params": {
+          "text": " FILTERS - ",
+          "textColor": "rgb(0, 0, 0)",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 64,
+          "y": 90,
+          "x": 30
+        }
+      },
+      "text_34": {
+        "params": {
+          "text": "Created over Past Year",
+          "textColor": "rgb(199, 151, 3)",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 101,
+          "y": 1360,
+          "x": 350
+        }
+      },
+      "box_22": {
+        "params": {
+          "backgroundColor": "rgba(255, 255, 255, 0.85)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 320,
+          "zIndex": 128,
+          "y": 1400,
+          "h": 370,
+          "x": 370
+        }
+      },
+      "box_23": {
+        "params": {
+          "backgroundColor": "rgba(255, 255, 255, 0.95)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 320,
+          "zIndex": 80,
+          "y": 1250,
+          "h": 100,
+          "x": 370
+        }
+      },
+      "box_20": {
+        "params": {
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgba(243, 243, 243, 0.91)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 1420,
+          "zIndex": 24,
+          "y": 1190,
+          "h": 620,
+          "x": 0
+        }
+      },
+      "text_55": {
+        "params": {
+          "text": "Date",
+          "fontSize": 16
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 67,
+          "y": 90,
+          "x": 980
+        }
+      },
+      "text_37": {
+        "params": {
+          "text": "Open Pipe",
+          "textColor": "rgb(255, 255, 255)",
+          "fontSize": 20
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 117,
+          "y": 20,
+          "x": 820
+        }
+      },
+      "text_71": {
+        "params": {
+          "text": "Opportunites",
+          "textColor": "rgb(199, 151, 3)",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 102,
+          "y": 680,
+          "x": 0
+        }
+      },
+      "box_21": {
+        "params": {
+          "backgroundColor": "rgba(255, 255, 255, 0.82)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 320,
+          "zIndex": 79,
+          "y": 1250,
+          "h": 520,
+          "x": 20
+        }
+      },
+      "text_38": {
+        "params": {
+          "text": "#Red Accounts",
+          "textColor": "rgb(255, 255, 255)",
+          "fontSize": 20
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 113,
+          "y": 20,
+          "x": 1030
+        }
+      },
+      "text_53": {
+        "params": {
+          "text": "Open Pipe",
+          "textColor": "rgb(45, 45, 45)",
+          "fontSize": 20
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 71,
+          "y": 170,
+          "x": 1140
+        }
+      },
+      "text_35": {
+        "params": {
+          "text": "EWS Usage Segment",
+          "textColor": "rgb(199, 151, 3)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 68,
+          "y": 2010,
+          "x": 700
+        }
+      },
+      "text_54": {
+        "params": {
+          "text": "ACCOUNT 360 DASHBOARD",
+          "textColor": "rgb(255, 255, 255)"
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 22,
+          "y": 20,
+          "x": 10
+        }
+      },
+      "text_36": {
+        "params": {
+          "text": "|",
+          "textColor": "rgb(203, 154, 5)",
+          "fontSize": 40
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 65,
+          "y": 80,
+          "x": 540
+        }
+      },
+      "text_39": {
+        "params": {
+          "text": "EWS (0-4)",
+          "textColor": "rgb(255, 255, 255)",
+          "fontSize": 20
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 115,
+          "y": 20,
+          "x": 1250
+        }
+      },
+      "text_13": {
+        "params": {
+          "text": "Case by Topic (over the past year)",
+          "textColor": "rgb(199, 151, 3)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 97,
+          "y": 1210,
+          "x": 700
+        }
+      },
+      "box_28": {
+        "params": {
+          "backgroundColor": "rgba(255, 255, 255, 0.77)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 670,
+          "zIndex": 82,
+          "y": 2470,
+          "h": 300,
+          "x": 720
+        }
+      },
+      "box_29": {
+        "params": {
+          "backgroundColor": "rgba(255, 255, 255, 0.72)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 670,
+          "zIndex": 84,
+          "y": 2470,
+          "h": 300,
+          "x": 20
+        }
+      },
+      "text_11": {
+        "params": {
+          "text": "Open Pipe",
+          "textColor": "rgb(199, 151, 3)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 48,
+          "y": 260,
+          "x": 0
+        }
+      },
+      "box_27": {
+        "params": {
+          "borderColor": "rgba(0, 0, 0, 0)",
+          "backgroundColor": "rgba(243, 243, 243, 0.91)"
+        },
+        "type": "BoxWidget",
+        "pos": {
+          "w": 1420,
+          "zIndex": 23,
+          "y": 1910,
+          "h": 910,
+          "x": 0
+        }
+      },
+      "text_6": {
+        "params": {
+          "text": "Products Sold over Past 5 Years",
+          "textColor": "rgb(199, 151, 3)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 44,
+          "y": 680,
+          "x": 700
+        }
+      },
+      "text_8": {
+        "params": {
+          "text": "Open Cases",
+          "textColor": "rgb(199, 151, 3)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 102,
+          "y": 1210,
+          "x": 0
+        }
+      },
+      "text_3": {
+        "params": {
+          "text": "Booking History",
+          "textColor": "rgb(199, 151, 3)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 43,
+          "y": 430,
+          "x": 700
+        }
+      },
+      "text_2": {
+        "params": {
+          "text": "Past Deals at a Glance",
+          "textColor": "rgb(199, 151, 3)",
+          "textAlignment": "left",
+          "fontSize": 18
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 105,
+          "y": 260,
+          "x": 700
+        }
+      },
+      "text_52": {
+        "params": {
+          "text": "|",
+          "textColor": "rgb(203, 154, 5)",
+          "fontSize": 40
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 66,
+          "y": 80,
+          "x": 940
+        }
+      },
+      "text_51": {
+        "params": {
+          "text": "Review the way this account is using Salesforce, license utilization, Chatter and Salesforce1 Penetration.",
+          "textColor": "rgb(45, 45, 45)",
+          "textAlignment": "left",
+          "fontSize": 14
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 82,
+          "y": 1870,
+          "x": 0
+        }
+      },
+      "text_50": {
+        "params": {
+          "text": "Get a sense of the account health, the number of critical cases, and the trend of new issues.",
+          "textColor": "rgb(45, 45, 45)",
+          "textAlignment": "left",
+          "fontSize": 14
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 81,
+          "y": 1140,
+          "x": 0
+        }
+      },
+      "text_30": {
+        "params": {
+          "text": "Product 2",
+          "textColor": "rgb(13, 195, 187)",
+          "textAlignment": "left",
+          "fontSize": 24
+        },
+        "type": "TextWidget",
+        "pos": {
+          "zIndex": 68,
+          "y": 2350,
+          "x": 700
+        }
+      }
+    },
+    "layouts": {
+      "device:iphone": {
+        "page:0": [
+          "box_32 {colspan=4, zIndex = -1, hpad=-15, vpad=-2.5} | row : {height=130}",
+          "dimfilter_5 {vpad=10, colspan=2}, box_3 {colspan=4, zIndex = -1, hpad=-15, vpad=-2.5} | dimfilter_6 {vpad=10, colspan=2} | row : {height=85}",
+          "box_52 {colspan=4} | row : {height=20}",
+          "box_34 {colspan=4, rowspan=3, zIndex = -1, hpad=-15, vpad=-2.5} | | text_56 {colspan=2} | row : {height=20}",
+          "bookings_subtitle {colspan=3} | number_41",
+          "text_49 {colspan=4, vpad=10}",
+          "box_50 {colspan=4} | row : {height=5}",
+          "box_35 {colspan=4, rowspan=3, zIndex = -1, hpad=-15, vpad=-2.5} | | text_55 {colspan=2} | row : {height=20}",
+          "customerhealth_subtitle {colspan=3} | number_51",
+          "text_50 {colspan=4, vpad=10}",
+          "box_49 {colspan=4} | row : {height=5}",
+          "box_37 {colspan=4, rowspan=3, zIndex = -1, hpad=-15, vpad=-2.5} | | text_54 {colspan=2} | row : {height=20}",
+          "adoption_subtitle {colspan=3} | number_42",
+          "text_51 {colspan=4, vpad=10}",
+          "text_52 {colspan=4, vpad=5}"
+        ],
+        "page:1": [
+          "box_1 {colspan = 2, zIndex = -1, hpad=-15, vpad=-2.5} | row : {height=70}",
+          "dimfilter_5 {vpad=10,hpad=-15}, box_3 {colspan = 2, zIndex = -1, hpad=-15, vpad=-2.5} | dimfilter_6 {vpad=10,hpad=-15} | row : {height=85}",
+          "text_11 {vpad=10} | number_2 {vpad=10}",
+          "buttongroup_1 {colspan=2, vpad=5}",
+          "chart_4 {colspan=2, vpad=10} | row : {height=320}",
+          "valuestable_1 {colspan=2, vpad=10} | row : {height=320}",
+          "box_21 {colspan=2, hpad=-2} | row : {height=1}",
+          "text_2 {colspan=2, vpad=10}",
+          "number_6 | number_3",
+          "number_5 | number_4",
+          "box_6 {colspan=2} | row : {height=10}",
+          "text_3 {colspan=2}",
+          "chart_3 {colspan=2, vpad=10} | row : {height=320}",
+          "box_8 {colspan=2} | row : {height=1}",
+          "text_6 {colspan=2,vpad=10}",
+          "chart_6 {colspan=2, vpad=10} | row : {height=320}"
+        ],
+        "page:2": [
+          "box_4 {colspan = 2, zIndex = -1, hpad=-15, vpad=-2.5} | row : {height=70}",
+          "dimfilter_5 {vpad=10,hpad=-15}, box_3 {colspan = 2, zIndex = -1, hpad=-15, vpad=-2.5} | dimfilter_6 {vpad=10,hpad=-15} | row : {height=85}",
+          "text_20 {vpad=10} | number_8 {vpad=10}",
+          "box_11 {colspan=2} | row : {height=10}",
+          "text_8 {colspan=2}",
+          "chart_5 {colspan=2, vpad=10} | row : {height=320}",
+          "box_17 {colspan=2} | row : {height=1}",
+          "text_7 {colspan=2, vpad=10}",
+          "text_29 {colspan=2, vpad=10}",
+          "number_11 | number_12",
+          "box_18 {colspan=2} | row : {height=10}",
+          "chart_7 {colspan=2, vpad=10} | row : {height=320}",
+          "box_23 {colspan=2} | row : {height=1}",
+          "text_13 {colspan=2, vpad=10}",
+          "chart_10 {colspan=2, vpad=10} | row : {height=320}"
+        ],
+        "page:3": [
+          "box_13 {colspan = 6, zIndex = -1, hpad=-15, vpad=-2.5}  | row : {height=70}",
+          "dimfilter_5 {vpad=10,hpad=-15, colspan=3}, box_3 {colspan = 6, zIndex = -1, hpad=-15, vpad=-2.5} | dimfilter_6 {vpad=10,hpad=-15, colspan=3} | row : {height=85}",
+          "text_24 {vpad=10, colspan=6}",
+          "text_32 {colspan=6}",
+          "number_21 {vpad=10, colspan=3}| number_20 {vpad=10, colspan=3}",
+          "text_35 {colspan=6}",
+          "chart_12 {colspan=6, vpad=10} | row : {height=200}",
+          "text_31 {vpad=10, colspan=6}",
+          "buttongroup_2 {colspan=6, vpad=5}",
+          "number_17 {colspan=3}| number_18 {colspan=3}",
+          "box_25 {colspan=6} | row : {height=10}",
+          "text_27 {colspan=6}",
+          "chart_14 {colspan=6, vpad=10} | row : {height=320}",
+          "box_24 {colspan=6} | row : {height=1}",
+          "text_28 {colspan=6, vpad=10}",
+          "number_23 {colspan=3} | number_24 {colspan=3}",
+          "box_27 {colspan=6} | row : {height=10}",
+          "text_22 {colspan=6}",
+          "chart_13 {colspan=6, vpad=10} | row : {height=320}",
+          "box_28 {colspan=6} | row : {height=1}",
+          "text_30 {colspan=6, vpad=10}",
+          "number_25 {colspan=3} | number_26 {colspan=3}",
+          "box_31 {colspan=6} | row : {height=10}",
+          "text_23 {colspan=6}",
+          "chart_11 {colspan=6, vpad=10} | row : {height=320}",
+          "box_26  {colspan=6} | row : {height=1}",
+          "text_39 {colspan=6, vpad=10}",
+          "box_54 {colspan=2} | text_60 {colspan=2} | text_59 {colspan=2}",
+          "text_38 {colspan=2} | number_37 {colspan=2} | number_32 {colspan=2}",
+          "text_37 {colspan=2} | number_36 {colspan=2} | number_28 {colspan=2}",
+          "text_40 {colspan=2} | number_35 {colspan=2} | number_34 {colspan=2}",
+          "text_44 {colspan=2} | number_31 {colspan=2} | number_33 {colspan=2}",
+          "text_42 {colspan=2} | number_30 {colspan=2} | number_27 {colspan=2}",
+          "text_43 {colspan=2} | number_29 {colspan=2} | number_40 {colspan=2}",
+          "box_30 {colspan=6} | row : {height=50}"
+        ]
+      },
+      "device:ipad, orientation:portrait": {
+        "page:0": [
+          "box_60 {colspan=4, zIndex = -1, hpad=-15, vpad=-2.5} | row : {height=160}",
+          "dimfilter_5 {vpad=10, colspan=2, hpad=15}, box_3 {colspan=4, zIndex = -1, hpad=-15, vpad=-2.5} | dimfilter_6 {vpad=10, colspan=2, hpad=15} | row : {height=85}",
+          "box_52 {colspan=4} | row : {height=20}",
+          "bookings_subtitle {colspan=2, hpad=15}, box_34 {colspan=4, rowspan=2, zIndex = -1, hpad=-15, vpad=-2.5} | text_56 {colspan=2, hpad=15} | row : {height=40}",
+          "text_49 {colspan=3, vpad=10, hpad=15} | number_41 {hpad=15}",
+          "box_50 {colspan=4} | row : {height=30}",
+          "customerhealth_subtitle {colspan=2, hpad=15}, box_35 {colspan=4, rowspan=2, zIndex = -1, hpad=-15, vpad=-2.5} | text_55 {colspan=2, hpad=15} | row : {height=40}",
+          "text_50 {colspan=3, vpad=10, hpad=15} | number_51 {hpad=15}",
+          "box_49 {colspan=4} | row : {height=30}",
+          "adoption_subtitle {colspan=2, hpad=15}, box_37 {colspan=4, rowspan=2, zIndex = -1, hpad=-15, vpad=-2.5} | text_54 {colspan=2, hpad=15} | row : {height=40}",
+          "text_51 {colspan=3, vpad=10, hpad=15} | number_42 {hpad=15}",
+          "text_52 {colspan=4, vpad=275}"
+        ],
+        "page:1": [
+          "box_1 {colspan = 4, zIndex = -1, hpad=-15, vpad=-2.5} | row : {height=140}",
+          "dimfilter_5 {vpad=10, colspan=2}, box_3 {colspan = 4, zIndex = -1, hpad=-15, vpad=-2.5} | dimfilter_6 {vpad=10, colspan=2} | row : {height=85}",
+          "text_11 {vpad=10, hpad=15, colspan=2} | number_2 {vpad=10, hpad=15, colspan=2}",
+          "buttongroup_1 {colspan=4, vpad=5, hpad=15}",
+          "chart_4 {vpad=10, hpad=15, colspan=2} | valuestable_1 {vpad=10, hpad=15, colspan=2} | row : {height=320}",
+          "box_21 {colspan=4, hpad=-2} | row : {height=1}",
+          "text_2 {vpad=10, hpad=15, colspan=2} | text_6 {vpad=10, hpad=15, colspan=2}",
+          "number_6 | number_3 | chart_6 {colspan=2, rowspan=4, vpad=10}",
+          "number_5 | number_4",
+          "text_3 {colspan=2, vpad=10, hpad=15}",
+          "chart_3 {colspan=2, vpad=10, hpad=15} | row : {height=320}"
+        ],
+        "page:2": [
+          "box_4 {colspan = 4, zIndex = -1, hpad=-15, vpad=-2.5} | row : {height=140}",
+          "dimfilter_5 {vpad=10, colspan=2}, box_3 {colspan = 4, zIndex = -1, hpad=-15, vpad=-2.5} | dimfilter_6 {vpad=10, colspan=2} | row : {height=85}",
+          "text_20 {vpad=10, hpad=15, colspan=2} | number_8 {vpad=10, hpad=15, colspan=2}",
+          "box_11 {colspan=4} | row : {height=10}",
+          "text_8 {colspan=4, hpad=15}",
+          "chart_hbar_opencases {colspan=4, vpad=10, hpad=15} | row : {height=320}",
+          "box_17 {colspan=4} | row : {height=1}",
+          "text_7 {colspan=4, vpad=10, hpad=15}",
+          "text_29 {colspan=2, vpad=10, hpad=15} | text_13 {colspan=2, vpad=10, hpad=15}",
+          "number_11 | number_12 {hpad=15} | chart_10 {colspan=2, rowspan=3, vpad=10, hpad=15}",
+          "box_18 {colspan=2} | row : {height=10}",
+          "chart_7 {colspan=2, vpad=10, hpad=15} | row : {height=320}"
+        ],
+        "page:3": [
+          "box_13 {colspan = 4, zIndex = -1, hpad=-15, vpad=-2.5} | row : {height=140}",
+          "dimfilter_5 {vpad=10, colspan=2}, box_3 {colspan = 4, zIndex = -1, hpad=-15, vpad=-2.5} | dimfilter_6 {vpad=10, colspan=2} | row : {height=85}",
+          "text_24 {vpad=10, colspan=4, hpad=15}",
+          "text_32 {colspan=2, hpad=15} | text_31 {colspan=2}",
+          "number_21 {vpad=10, rowspan=2} | number_20 {vpad=10, rowspan=2} | buttongroup_2 {colspan=2, vpad=10, hpad=15}",
+          " | | number_17 | number_18 {hpad=15}",
+          "text_35 {colspan=2, hpad=15} | text_27 {colspan=2}",
+          "chart_12 {colspan=2, vpad=10} | chart_14 {colspan=2, vpad=10, hpad=15} | row : {height=320}",
+          "box_24 {colspan=2} | box_28 {colspan=2} | row : {height=1}",
+          "text_28 {colspan=2, vpad=10, hpad=15} | text_30 {colspan=2, vpad=10}",
+          "number_23 | number_24 | number_25 | number_26 {hpad=15} ",
+          "box_27 {colspan=2} | box_31 {colspan=2} | row : {height=10}",
+          "text_22 {colspan=2, hpad=15} | text_23 {colspan=2}",
+          "chart_13 {colspan=2, vpad=10, hpad=15} | chart_11 {colspan=2, vpad=10, hpad=15} | row : {height=320}",
+          "box_26  {colspan=4} | row : {height=1}",
+          "text_39 {colspan=4, vpad=10, hpad=15}",
+          "box_54 | text_60 | text_59 | ",
+          "text_38 | number_37 | number_32 | ",
+          "text_37 | number_36 | number_28 | ",
+          "text_40 | number_35 | number_34 | ",
+          "text_44 | number_31 | number_33 | ",
+          "text_42 | number_30 | number_27 | ",
+          "text_43 | number_29 | number_40 | ",
+          "box_30 {colspan=4} | row : {height=50}"
+        ]
+      },
+      "device:ipad, orientation:landscape": {
+        "page:0": [
+          "box_44 {colspan=4, zIndex = -1, hpad=-15, vpad=-2.5} | row : {height=162}",
+          "dimfilter_5 {vpad=10, colspan=2, hpad=15}, box_3 {colspan=4, zIndex = -1, hpad=-15, vpad=-2.5} | dimfilter_6 {vpad=10, colspan=2, hpad=15} | row : {height=85}",
+          "box_52 {colspan=4} | row : {height=20}",
+          "bookings_subtitle {colspan=2, hpad=15}, box_34 {colspan=4, rowspan=2, zIndex = -1, hpad=-15, vpad=-2.5} | text_56 {colspan=2, hpad=15} | row : {height=40}",
+          "text_49 {colspan=3, vpad=10, hpad=15} | number_41 {hpad=15}",
+          "box_50 {colspan=4} | row : {height=30}",
+          "customerhealth_subtitle {colspan=2, hpad=15}, box_35 {colspan=4, rowspan=2, zIndex = -1, hpad=-15, vpad=-2.5} | text_55 {colspan=2, hpad=15} | row : {height=40}",
+          "text_50 {colspan=3, vpad=10, hpad=15} | number_51 {hpad=15}",
+          "box_49 {colspan=4} | row : {height=30}",
+          "adoption_subtitle {colspan=2, hpad=15}, box_37 {colspan=4, rowspan=2, zIndex = -1, hpad=-15, vpad=-2.5} | text_54 {colspan=2, hpad=15} | row : {height=40}",
+          "text_51 {colspan=3, vpad=10, hpad=15} | number_42 {hpad=15}",
+          "text_52 {colspan=4, vpad=120}"
+        ],
+        "page:1": [
+          "box_53 {colspan = 4, zIndex = -1, hpad=-15, vpad=-2.5} | row : {height=87.5}",
+          "dimfilter_5 {vpad=10, colspan=2}, box_3 {colspan = 4, zIndex = -1, hpad=-15, vpad=-2.5} | dimfilter_6 {vpad=10, colspan=2} | row : {height=85}",
+          "text_11 {vpad=10, hpad=15, colspan=2} | number_2 {vpad=10, hpad=15, colspan=2}",
+          "buttongroup_1 {colspan=4, vpad=5, hpad=15}",
+          "chart_4 {vpad=10, hpad=15, colspan=2} | valuestable_1 {vpad=10, hpad=15, colspan=2} | row : {height=320}",
+          "box_21 {colspan=4, hpad=-2} | row : {height=1}",
+          "text_2 {vpad=10, hpad=15, colspan=2} | text_6 {vpad=10, hpad=15, colspan=2}",
+          "number_6 | number_3 | chart_6 {colspan=2, rowspan=4, vpad=10}",
+          "number_5 | number_4",
+          "text_3 {colspan=2, vpad=10, hpad=15}",
+          "chart_3 {colspan=2, vpad=10, hpad=15} | row : {height=320}"
+        ],
+        "page:2": [
+          "box_55 {colspan = 4, zIndex = -1, hpad=-15, vpad=-2.5} | row : {height=87.5}",
+          "dimfilter_5 {vpad=10, colspan=2}, box_3 {colspan = 4, zIndex = -1, hpad=-15, vpad=-2.5} | dimfilter_6 {vpad=10, colspan=2} | row : {height=85}",
+          "text_20 {vpad=10, hpad=15, colspan=2} | number_8 {vpad=10, hpad=15, colspan=2}",
+          "box_11 {colspan=4} | row : {height=10}",
+          "text_8 {colspan=4, hpad=15}",
+          "chart_hbar_opencases {colspan=4, vpad=10, hpad=15} | row : {height=320}",
+          "box_17 {colspan=4} | row : {height=1}",
+          "text_7 {colspan=4, vpad=10, hpad=15}",
+          "text_29 {colspan=2, vpad=10, hpad=15} | text_13 {colspan=2, vpad=10, hpad=15}",
+          "number_11 | number_12 {hpad=15} | chart_10 {colspan=2, rowspan=3, vpad=10, hpad=15}",
+          "box_18 {colspan=2} | row : {height=10}",
+          "chart_7 {colspan=2, vpad=10, hpad=15} | row : {height=320}"
+        ],
+        "page:3": [
+          "box_56 {colspan = 4, zIndex = -1, hpad=-15, vpad=-2.5} | row : {height=87.5}",
+          "dimfilter_5 {vpad=10, colspan=2}, box_3 {colspan = 4, zIndex = -1, hpad=-15, vpad=-2.5} | dimfilter_6 {vpad=10, colspan=2} | row : {height=85}",
+          "text_24 {vpad=10, colspan=4, hpad=15}",
+          "text_32 {colspan=2, hpad=15} | text_31 {colspan=2}",
+          "number_21 {vpad=10, rowspan=2} | number_20 {vpad=10, rowspan=2} | buttongroup_2 {colspan=2, vpad=10, hpad=15}",
+          " | | number_17 | number_18 {hpad=15}",
+          "text_35 {colspan=2, hpad=15} | text_27 {colspan=2}",
+          "chart_12 {colspan=2, vpad=10} | chart_14 {colspan=2, vpad=10, hpad=15} | row : {height=320}",
+          "box_24 {colspan=2} | box_28 {colspan=2} | row : {height=1}",
+          "text_28 {colspan=2, vpad=10, hpad=15} | text_30 {colspan=2, vpad=10}",
+          "number_23 | number_24 | number_25 | number_26 {hpad=15} ",
+          "box_27 {colspan=2} | box_31 {colspan=2} | row : {height=10}",
+          "text_22 {colspan=2, hpad=15} | text_23 {colspan=2}",
+          "chart_13 {colspan=2, vpad=10, hpad=15} | chart_11 {colspan=2, vpad=10, hpad=15} | row : {height=320}",
+          "box_26  {colspan=4} | row : {height=1}",
+          "text_39 {colspan=4, vpad=10, hpad=15}",
+          "box_54 | text_60 | text_59 | ",
+          "text_38 | number_37 | number_32 | ",
+          "text_37 | number_36 | number_28 | ",
+          "text_40 | number_35 | number_34 | ",
+          "text_44 | number_31 | number_33 | ",
+          "text_42 | number_30 | number_27 | ",
+          "text_43 | number_29 | number_40 | ",
+          "box_30 {colspan=4} | row : {height=50}"
+        ]
+      }
+    }
+  }
+}
